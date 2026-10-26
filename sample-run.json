@@ -1,0 +1,848 @@
+{
+  "id": "ea643dda-9092-46b8-83d4-b8620264d232",
+  "createdAt": "2026-10-22T02:43:45.025Z",
+  "updatedAt": "2026-10-22T02:43:46.484Z",
+  "status": "completed",
+  "request": {
+    "name": "서비스 신청 페이지 · 예시",
+    "environment": "demo",
+    "mode": "quick",
+    "urls": [
+      "http://127.0.0.1:47832/fixtures/review-fixture.html"
+    ],
+    "changeNote": "의도적으로 문제를 넣은 예시 페이지의 실제 자동 검사 결과",
+    "implementation": "complete",
+    "viewports": [
+      "desktop"
+    ],
+    "steps": [],
+    "sessionId": null,
+    "baselineId": null
+  },
+  "states": [
+    {
+      "id": "6c4f5356-a0c0-407c-abee-8540daa8974b",
+      "url": "http://127.0.0.1:47832/fixtures/review-fixture.html",
+      "viewport": "desktop",
+      "step": 0,
+      "label": "초기 화면",
+      "status": "completed",
+      "screenshot": "ea643dda-9092-46b8-83d4-b8620264d232/6c4f5356-a0c0-407c-abee-8540daa8974b.png",
+      "findings": 5,
+      "title": "서비스 신청 — 검사 예시",
+      "passedRuleIds": [
+        "aria-hidden-body",
+        "avoid-inline-spacing",
+        "button-name",
+        "color-contrast",
+        "document-title",
+        "duplicate-id-aria",
+        "form-field-multiple-labels",
+        "label",
+        "nested-interactive",
+        "target-size"
+      ],
+      "inapplicableRuleIds": [
+        "area-alt",
+        "aria-allowed-attr",
+        "aria-braille-equivalent",
+        "aria-command-name",
+        "aria-conditional-attr",
+        "aria-deprecated-role",
+        "aria-hidden-focus",
+        "aria-input-field-name",
+        "aria-meter-name",
+        "aria-progressbar-name",
+        "aria-prohibited-attr",
+        "aria-required-attr",
+        "aria-required-children",
+        "aria-required-parent",
+        "aria-roles",
+        "aria-toggle-field-name",
+        "aria-tooltip-name",
+        "aria-valid-attr-value",
+        "aria-valid-attr",
+        "autocomplete-valid",
+        "blink",
+        "bypass",
+        "definition-list",
+        "dlitem",
+        "frame-focusable-content",
+        "frame-title-unique",
+        "frame-title",
+        "html-lang-valid",
+        "html-xml-lang-mismatch",
+        "input-button-name",
+        "input-image-alt",
+        "link-in-text-block",
+        "link-name",
+        "list",
+        "listitem",
+        "marquee",
+        "meta-refresh",
+        "meta-viewport",
+        "object-alt",
+        "role-img-alt",
+        "scrollable-region-focusable",
+        "select-name",
+        "server-side-image-map",
+        "summary-name",
+        "svg-img-alt",
+        "td-headers-attr",
+        "th-has-data-cells",
+        "valid-lang",
+        "video-caption",
+        "no-autoplay-audio"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "id": "6fbc16af782e509e5e30",
+      "fingerprint": "6fbc16af782e509e5e30",
+      "ruleId": "button-name",
+      "title": "Buttons must have discernible text",
+      "description": "Ensure buttons have discernible text",
+      "impact": "critical",
+      "type": "violation",
+      "workflow": "open",
+      "scIds": [
+        "4.1.2"
+      ],
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/button-name?application=axeAPI",
+      "selector": ".blank",
+      "html": "<button type=\"button\" class=\"blank\"></button>",
+      "explanation": "Fix any of the following:\n  Element does not have inner text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+      "stateId": "6c4f5356-a0c0-407c-abee-8540daa8974b",
+      "url": "http://127.0.0.1:47832/fixtures/review-fixture.html",
+      "viewport": "desktop",
+      "stateLabel": "초기 화면",
+      "screenshot": "ea643dda-9092-46b8-83d4-b8620264d232/6c4f5356-a0c0-407c-abee-8540daa8974b.png",
+      "bounds": {
+        "x": 310,
+        "y": 510.84375,
+        "width": 38,
+        "height": 34
+      },
+      "steps": [
+        "페이지 열기",
+        "PC 화면 1440×1000",
+        "해당 요소 확인"
+      ],
+      "owner": "",
+      "note": "",
+      "source": "axe-core",
+      "history": [
+        {
+          "at": "2026-10-22T02:43:46.347Z",
+          "status": "open",
+          "note": "자동 규칙 위반 발견"
+        }
+      ]
+    },
+    {
+      "id": "acd5655e884c1c72f157",
+      "fingerprint": "acd5655e884c1c72f157",
+      "ruleId": "color-contrast",
+      "title": "Elements must meet minimum color contrast ratio thresholds",
+      "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "impact": "serious",
+      "type": "violation",
+      "workflow": "open",
+      "scIds": [
+        "1.4.3"
+      ],
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+      "selector": ".low",
+      "html": "<p class=\"low\">본 페이지는 검수 기능 확인용 예시입니다.</p>",
+      "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.7 (foreground color: #c6c6c6, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+      "stateId": "6c4f5356-a0c0-407c-abee-8540daa8974b",
+      "url": "http://127.0.0.1:47832/fixtures/review-fixture.html",
+      "viewport": "desktop",
+      "stateLabel": "초기 화면",
+      "screenshot": "ea643dda-9092-46b8-83d4-b8620264d232/6c4f5356-a0c0-407c-abee-8540daa8974b.png",
+      "bounds": {
+        "x": 310,
+        "y": 289.84375,
+        "width": 820,
+        "height": 21
+      },
+      "steps": [
+        "페이지 열기",
+        "PC 화면 1440×1000",
+        "해당 요소 확인"
+      ],
+      "owner": "",
+      "note": "",
+      "source": "axe-core",
+      "history": [
+        {
+          "at": "2026-10-22T02:43:46.347Z",
+          "status": "open",
+          "note": "자동 규칙 위반 발견"
+        }
+      ]
+    },
+    {
+      "id": "500df00a7a5606f94821",
+      "fingerprint": "500df00a7a5606f94821",
+      "ruleId": "html-has-lang",
+      "title": "<html> element must have a lang attribute",
+      "description": "Ensure every HTML document has a lang attribute",
+      "impact": "serious",
+      "type": "violation",
+      "workflow": "open",
+      "scIds": [
+        "3.1.1"
+      ],
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/html-has-lang?application=axeAPI",
+      "selector": "html",
+      "html": "<html>",
+      "explanation": "Fix any of the following:\n  The <html> element does not have a lang attribute",
+      "stateId": "6c4f5356-a0c0-407c-abee-8540daa8974b",
+      "url": "http://127.0.0.1:47832/fixtures/review-fixture.html",
+      "viewport": "desktop",
+      "stateLabel": "초기 화면",
+      "screenshot": "ea643dda-9092-46b8-83d4-b8620264d232/6c4f5356-a0c0-407c-abee-8540daa8974b.png",
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 712.84375
+      },
+      "steps": [
+        "페이지 열기",
+        "PC 화면 1440×1000",
+        "해당 요소 확인"
+      ],
+      "owner": "",
+      "note": "",
+      "source": "axe-core",
+      "history": [
+        {
+          "at": "2026-10-22T02:43:46.347Z",
+          "status": "open",
+          "note": "자동 규칙 위반 발견"
+        }
+      ]
+    },
+    {
+      "id": "4dd684d0886d6138b702",
+      "fingerprint": "4dd684d0886d6138b702",
+      "ruleId": "image-alt",
+      "title": "Images must have alternative text",
+      "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+      "impact": "critical",
+      "type": "violation",
+      "workflow": "open",
+      "scIds": [
+        "1.1.1"
+      ],
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/image-alt?application=axeAPI",
+      "selector": "img",
+      "html": "<img src=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48'%3E%3Crect width='48' height='48' rx='10' fill='%231c6c51'/%3E%3C/svg%3E\">",
+      "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+      "stateId": "6c4f5356-a0c0-407c-abee-8540daa8974b",
+      "url": "http://127.0.0.1:47832/fixtures/review-fixture.html",
+      "viewport": "desktop",
+      "stateLabel": "초기 화면",
+      "screenshot": "ea643dda-9092-46b8-83d4-b8620264d232/6c4f5356-a0c0-407c-abee-8540daa8974b.png",
+      "bounds": {
+        "x": 310,
+        "y": 160,
+        "width": 48,
+        "height": 48
+      },
+      "steps": [
+        "페이지 열기",
+        "PC 화면 1440×1000",
+        "해당 요소 확인"
+      ],
+      "owner": "",
+      "note": "",
+      "source": "axe-core",
+      "history": [
+        {
+          "at": "2026-10-22T02:43:46.347Z",
+          "status": "open",
+          "note": "자동 규칙 위반 발견"
+        }
+      ]
+    },
+    {
+      "id": "19e00a36125bd3e315bd",
+      "fingerprint": "19e00a36125bd3e315bd",
+      "ruleId": "label",
+      "title": "Form elements must have labels",
+      "description": "Ensure every form element has a label",
+      "impact": "critical",
+      "type": "violation",
+      "workflow": "open",
+      "scIds": [
+        "4.1.2"
+      ],
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/label?application=axeAPI",
+      "selector": "input:nth-child(2)",
+      "html": "<input style=\"\">",
+      "explanation": "Fix any of the following:\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element has no placeholder attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+      "stateId": "6c4f5356-a0c0-407c-abee-8540daa8974b",
+      "url": "http://127.0.0.1:47832/fixtures/review-fixture.html",
+      "viewport": "desktop",
+      "stateLabel": "초기 화면",
+      "screenshot": "ea643dda-9092-46b8-83d4-b8620264d232/6c4f5356-a0c0-407c-abee-8540daa8974b.png",
+      "bounds": {
+        "x": 310,
+        "y": 363.84375,
+        "width": 764,
+        "height": 41
+      },
+      "steps": [
+        "페이지 열기",
+        "PC 화면 1440×1000",
+        "해당 요소 확인"
+      ],
+      "owner": "",
+      "note": "",
+      "source": "axe-core",
+      "history": [
+        {
+          "at": "2026-10-22T02:43:46.347Z",
+          "status": "open",
+          "note": "자동 규칙 위반 발견"
+        }
+      ]
+    }
+  ],
+  "reviews": {},
+  "logs": [
+    {
+      "at": "2026-10-22T02:43:45.025Z",
+      "message": "브라우저 검사 시작"
+    },
+    {
+      "at": "2026-10-22T02:43:46.347Z",
+      "message": "초기 화면 · PC 검사 완료"
+    },
+    {
+      "at": "2026-10-22T02:43:46.363Z",
+      "message": "검사 종료 · 자동 규칙 결과와 전체 기준 평가를 구분해 확인하세요."
+    }
+  ],
+  "comparison": null,
+  "engine": {
+    "name": "axe-core",
+    "version": "4.10.3",
+    "standard": "WCAG 2.2 A·AA",
+    "browser": "Chrome",
+    "criteriaTarget": 55
+  },
+  "error": null,
+  "summary": {
+    "open": 5,
+    "review": 0,
+    "untested": 55,
+    "critical": 5,
+    "states": 1,
+    "errors": 0,
+    "assessed": 0,
+    "decision": "수정·확인 필요"
+  },
+  "coverage": [
+    {
+      "id": "1.1.1",
+      "title": "텍스트 아닌 콘텐츠",
+      "level": "A",
+      "focus": "이미지·아이콘·캔버스의 목적과 동등한 대체 정보를 확인한다.",
+      "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#non-text-content",
+      "outcome": "fail",
+      "review": null
+    },
+    {
+      "id": "1.2.1",
+      "title": "사전 제작 오디오·비디오 전용",
+      "level": "A",
+      "focus": "오디오 전용과 비디오 전용 매체 각각에 요구되는 대체 수단을 확인한다.",
+      "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#audio-only-and-video-only-prerecorded",
+      "outcome": "not-tested",
+      "review": null
+    },
+    {
+      "id": "1.2.2",
+      "title": "사전 제작 자막",
+      "level": "A",
+      "focus": "대사뿐 아니라 이해에 필요한 비언어 음성정보까지 동기화된 자막으로 제공하는지 확인한다.",
+      "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#captions-prerecorded",
+      "outcome": "not-tested",
+      "review": null
+    },
+    {
+      "id": "1.2.3",
+      "title": "사전 제작 음성해설 또는 대체수단",
+      "level": "A",
+      "focus": "동기화 매체의 시각정보에 음성해설 또는 요구되는 매체 대체수단이 있는지 확인한다.",
+      "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#audio-description-or-media-alternative-prerecorded",
+      "outcome": "not-tested",
+      "review": null
+    },
+    {
+      "id": "1.2.4",
+      "title": "실시간 자막",
+      "level": "AA",
+      "focus": "실시간 동기화 매체의 오디오에 자막을 제공하는지 확인한다.",
+      "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#captions-live",
+      "outcome": "not-tested",
+      "review": null
+    },
+    {
+      "id": "1.2.5",
+      "title": "사전 제작 음성해설",
+      "level": "AA",
+      "focus": "동기화 매체의 중요한 시각정보를 오디오로 전달하는지 확인한다.",
+      "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#audio-description-prerecorded",
+      "outcome": "not-tested",
+      "review": null
+    },
+    {
+      "id": "1.3.1",
+      "title": "정보와 관계",
+      "level": "A",
+      "focus": "시각적으로 표현한 제목·표·폼·목록의 관계가 프로그램으로 파악되거나 텍스트로 제공되는지 확인한다.",
+      "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#info-and-relationships",
+      "outcome": "not-tested",
+      "review": null
+    },
+    {
+      "id": "1.3.2",
+      "title": "의미 있는 순서",
+      "level": "A",
+      "focus": "의미에 영향을 주는 읽기 순서가 프로그램으로 파악되는지 확인한다.",
+      "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#meaningful-sequence",
+      "outcome": "not-tested",
+      "review": null
+    },
+    {
+      "id": "1.3.3",
+      "title": "감각적 특성",
+      "level": "A",
+      "focus": "사용 지시가 모양·색·위치·소리 등의 감각 특성에만 의존하는지 확인한다.",
+      "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#sensory-characteristics",
+      "outcome": "not-tested",
+      "review": null
+    },
+    {
+      "id": "1.3.4",
+      "title": "화면 방향",
+      "level": "AA",
+      "focus": "필수적인 경우를 제외하고 가로·세로 중 한 방향으로 표시·조작을 제한하는지 확인한다.",
+      "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#orientation",
+      "outcome": "not-tested",
+      "review": null
+    },
+    {
+      "id": "1.3.5",
+      "title": "입력 목적 식별",
+      "level": "AA",
+      "focus": "사용자 정보 입력 필드의 목적을 표준 의미로 프로그램이 식별할 수 있는지 확인한다.",
+      "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#identify-input-purpose",
+      "outcome": "not-tested",
+      "review": null
+    },
+    {
+      "id": "1.4.1",
+      "title": "색 사용",
+      "level": "A",
+      "focus": "정보·동작·구별을 색만으로 전달하는지 확인한다.",
+      "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#use-of-color",
+      "outcome": "not-tested",
+      "review": null
+    },
+    {
+      "id": "1.4.2",
+      "title": "오디오 제어",
+      "level": "A",
+      "focus": "자동 오디오가 3초를 넘으면 정지·일시정지 또는 독립적인 볼륨 제어를 확인한다.",
+      "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#audio-control",
+      "outcome": "not-tested",
+      "review": null
+    },
+    {
+      "id": "1.4.3",
+      "title": "최소 명도 대비",
+      "level": "AA",
+      "focus": "일반 텍스트 4.5:1, 큰 텍스트 3:1을 검사하고 예외와 글자 크기 정의를 확인한다.",
+      "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#contrast-minimum",
+      "outcome": "fail",
+      "review": null
+    },
+    {
+      "id": "1.4.4",
+      "title": "텍스트 확대",
+      "level": "AA",
+      "focus": "보조기술 없이 200%까지 텍스트를 확대해 정보·기능 손실을 확인한다.",
+      "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#resize-text",
+      "outcome": "not-tested",
+      "review": null
+    },
+    {
+      "id": "1.4.5",
+      "title": "이미지화된 텍스트",
+      "level": "AA",
+      "focus": "실제 텍스트로 표현 가능한 내용을 이미지로만 제공하는지, 필수성·사용자 조정 예외를 확인한다.",
+      "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#images-of-text",
+      "outcome": "not-tested",
+      "review": null
+    },
+    {
+      "id": "1.4.10",
+      "title": "리플로",
+      "level": "AA",
+      "focus": "가로쓰기 너비 320 CSS px 또는 세로쓰기 높이 256 CSS px에서 정보·기능 손실과 양방향 스크롤 예외를 확인한다.",
+      "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#reflow",
+      "outcome": "not-tested",
+      "review": null
+    },
+    {
+      "id": "1.4.11",
+      "title": "비텍스트 대비",
+      "level": "AA",
+      "focus": "UI 식별과 필수 그래픽의 관련 시각정보가 인접 색과 3:1 대비인지 예외와 함께 확인한다.",
+      "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#non-text-contrast",
+      "outcome": "not-tested",
+      "review": null
+    },
+    {
+      "id": "1.4.12",
+      "title": "텍스트 간격",
+      "level": "AA",
+      "focus": "줄 1.5배·문단 2배·글자 0.12배·단어 0.16배 간격 적용 후 정보·기능 손실을 확인한다.",
+      "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#text-spacing",
+      "outcome": "not-tested",
+      "review": null
+    },
+    {
+      "id": "1.4.13",
+      "title": "호버·포커스 추가 콘텐츠",
+      "level": "AA",
+      "focus": "추가 내용의 닫기·포인터 진입·지속 표시 조건 및 예외를 확인한다.",
+      "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#content-on-hover-or-focus",
+      "outcome": "not-tested",
+      "review": null
+    },
+    {
+      "id": "2.1.1",
+      "title": "키보드",
+      "level": "A",
+      "focus": "포인터 경로 자체가 필수인 기능을 제외하고 모든 기능의 키보드 조작을 확인한다.",
+      "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#keyboard",
+      "outcome": "not-tested",
+      "review": null
+    },
+    {
+      "id": "2.1.2",
+      "title": "키보드 트랩 없음",
+      "level": "A",
+      "focus": "키보드로 진입한 영역에서 빠져나올 수 있는지, 비표준 탈출 방법 안내를 확인한다.",
+      "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#no-keyboard-trap",
+      "outcome": "not-tested",
+      "review": null
+    },
+    {
+      "id": "2.1.4",
+      "title": "문자 단축키",
+      "level": "A",
+      "focus": "문자 전용 단축키를 끄거나 재설정하거나 포커스 시에만 활성화할 수 있는지 확인한다.",
+      "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#character-key-shortcuts",
+      "outcome": "not-tested",
+      "review": null
+    },
+    {
+      "id": "2.2.1",
+      "title": "시간 조절",
+      "level": "A",
+      "focus": "시간제한을 끄기·조정·연장할 수 있는지와 실시간·필수성·20시간 예외를 확인한다.",
+      "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#timing-adjustable",
+      "outcome": "not-tested",
+      "review": null
+    },
+    {
+      "id": "2.2.2",
+      "title": "일시정지·정지·숨김",
+      "level": "A",
+      "focus": "자동 움직임·깜빡임·스크롤·자동 갱신의 제어 조건과 필수성 예외를 확인한다.",
+      "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#pause-stop-hide",
+      "outcome": "not-tested",
+      "review": null
+    },
+    {
+      "id": "2.3.1",
+      "title": "세 번 이하 섬광·임계값",
+      "level": "A",
+      "focus": "1초에 세 번을 넘는 섬광이면 일반·적색 섬광 임계값을 넘는지 측정한다.",
+      "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#three-flashes-or-below-threshold",
+      "outcome": "not-tested",
+      "review": null
+    },
+    {
+      "id": "2.4.1",
+      "title": "반복 블록 건너뛰기",
+      "level": "A",
+      "focus": "반복 블록을 우회할 수 있는 수단을 확인한다.",
+      "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#bypass-blocks",
+      "outcome": "not-tested",
+      "review": null
+    },
+    {
+      "id": "2.4.2",
+      "title": "페이지 제목",
+      "level": "A",
+      "focus": "웹페이지 제목이 주제·목적을 설명하는지 확인한다.",
+      "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#page-titled",
+      "outcome": "not-tested",
+      "review": null
+    },
+    {
+      "id": "2.4.3",
+      "title": "포커스 순서",
+      "level": "A",
+      "focus": "순서가 의미·조작에 영향을 줄 때 초점 이동이 이를 보존하는지 확인한다.",
+      "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#focus-order",
+      "outcome": "not-tested",
+      "review": null
+    },
+    {
+      "id": "2.4.4",
+      "title": "문맥 내 링크 목적",
+      "level": "A",
+      "focus": "링크 텍스트와 프로그램으로 파악되는 문맥에서 목적을 알 수 있는지 확인한다.",
+      "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#link-purpose-in-context",
+      "outcome": "not-tested",
+      "review": null
+    },
+    {
+      "id": "2.4.5",
+      "title": "여러 탐색 수단",
+      "level": "AA",
+      "focus": "과정·결과 페이지 예외 외에 페이지를 찾는 수단이 둘 이상인지 확인한다.",
+      "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#multiple-ways",
+      "outcome": "not-tested",
+      "review": null
+    },
+    {
+      "id": "2.4.6",
+      "title": "제목과 레이블",
+      "level": "AA",
+      "focus": "제목·레이블이 주제나 목적을 설명하는지 확인한다.",
+      "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#headings-and-labels",
+      "outcome": "not-tested",
+      "review": null
+    },
+    {
+      "id": "2.4.7",
+      "title": "포커스 표시",
+      "level": "AA",
+      "focus": "키보드 조작 시 현재 초점을 볼 수 있는지 확인한다.",
+      "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#focus-visible",
+      "outcome": "not-tested",
+      "review": null
+    },
+    {
+      "id": "2.4.11",
+      "title": "포커스 완전 가림 방지",
+      "level": "AA",
+      "focus": "초점을 받은 구성요소가 작성자 콘텐츠에 의해 완전히 가려지는지와 예외를 확인한다.",
+      "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#focus-not-obscured-minimum",
+      "outcome": "not-tested",
+      "review": null
+    },
+    {
+      "id": "2.5.1",
+      "title": "포인터 제스처",
+      "level": "A",
+      "focus": "다중 포인터·경로기반 제스처의 단일 포인터 대안과 필수성 예외를 확인한다.",
+      "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#pointer-gestures",
+      "outcome": "not-tested",
+      "review": null
+    },
+    {
+      "id": "2.5.2",
+      "title": "포인터 취소",
+      "level": "A",
+      "focus": "누름 즉시 실행 회피·중단·되돌리기·뗌 이벤트의 조건과 예외를 확인한다.",
+      "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#pointer-cancellation",
+      "outcome": "not-tested",
+      "review": null
+    },
+    {
+      "id": "2.5.3",
+      "title": "레이블과 이름",
+      "level": "A",
+      "focus": "눈에 보이는 텍스트 레이블이 접근 가능한 이름에 포함되는지 확인한다.",
+      "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#label-in-name",
+      "outcome": "not-tested",
+      "review": null
+    },
+    {
+      "id": "2.5.4",
+      "title": "움직임으로 작동",
+      "level": "A",
+      "focus": "기기·사용자 움직임 기능의 UI 대안과 비활성화 및 예외를 확인한다.",
+      "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#motion-actuation",
+      "outcome": "not-tested",
+      "review": null
+    },
+    {
+      "id": "2.5.7",
+      "title": "드래그 동작",
+      "level": "AA",
+      "focus": "드래그 없이 단일 포인터로 같은 기능을 수행할 수 있는지와 예외를 확인한다.",
+      "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#dragging-movements",
+      "outcome": "not-tested",
+      "review": null
+    },
+    {
+      "id": "2.5.8",
+      "title": "최소 타깃 크기",
+      "level": "AA",
+      "focus": "24×24 CSS px 또는 간격 대안 및 동등 제어·인라인·에이전트·필수성 예외를 확인한다.",
+      "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#target-size-minimum",
+      "outcome": "not-tested",
+      "review": null
+    },
+    {
+      "id": "3.1.1",
+      "title": "페이지 언어",
+      "level": "A",
+      "focus": "기본 자연어를 프로그램으로 파악할 수 있는지 확인한다.",
+      "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#language-of-page",
+      "outcome": "fail",
+      "review": null
+    },
+    {
+      "id": "3.1.2",
+      "title": "부분 언어",
+      "level": "AA",
+      "focus": "다른 언어 구간의 언어 식별과 고유명사·전문용어 등의 예외를 확인한다.",
+      "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#language-of-parts",
+      "outcome": "not-tested",
+      "review": null
+    },
+    {
+      "id": "3.2.1",
+      "title": "포커스 시 변화",
+      "level": "A",
+      "focus": "초점을 받는 것만으로 문맥이 바뀌는지 확인한다.",
+      "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#on-focus",
+      "outcome": "not-tested",
+      "review": null
+    },
+    {
+      "id": "3.2.2",
+      "title": "입력 시 변화",
+      "level": "A",
+      "focus": "설정 변경으로 문맥이 바뀌면 사전 안내가 있는지 확인한다.",
+      "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#on-input",
+      "outcome": "not-tested",
+      "review": null
+    },
+    {
+      "id": "3.2.3",
+      "title": "일관된 탐색",
+      "level": "AA",
+      "focus": "반복 탐색 수단의 상대적 순서가 일관적인지 확인한다.",
+      "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#consistent-navigation",
+      "outcome": "not-tested",
+      "review": null
+    },
+    {
+      "id": "3.2.4",
+      "title": "일관된 식별",
+      "level": "AA",
+      "focus": "같은 기능의 구성요소를 일관되게 식별하는지 확인한다.",
+      "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#consistent-identification",
+      "outcome": "not-tested",
+      "review": null
+    },
+    {
+      "id": "3.2.6",
+      "title": "일관된 도움말",
+      "level": "A",
+      "focus": "여러 페이지에 반복 제공되는 해당 도움말 수단의 상대적 순서를 확인한다.",
+      "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#consistent-help",
+      "outcome": "not-tested",
+      "review": null
+    },
+    {
+      "id": "3.3.1",
+      "title": "오류 식별",
+      "level": "A",
+      "focus": "자동 탐지된 입력 오류의 항목과 내용을 텍스트로 알리는지 확인한다.",
+      "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#error-identification",
+      "outcome": "not-tested",
+      "review": null
+    },
+    {
+      "id": "3.3.2",
+      "title": "레이블·설명",
+      "level": "A",
+      "focus": "사용자 입력에 필요한 레이블과 지시를 제공하는지 확인한다.",
+      "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#labels-or-instructions",
+      "outcome": "not-tested",
+      "review": null
+    },
+    {
+      "id": "3.3.3",
+      "title": "오류 수정 제안",
+      "level": "AA",
+      "focus": "알려진 수정 방법을 보안·목적 예외 외에는 제시하는지 확인한다.",
+      "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#error-suggestion",
+      "outcome": "not-tested",
+      "review": null
+    },
+    {
+      "id": "3.3.4",
+      "title": "법률·금융·데이터 오류 방지",
+      "level": "AA",
+      "focus": "대상 제출에서 되돌리기·검증·확인 중 요구되는 보호수단을 확인한다.",
+      "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#error-prevention-legal-financial-data",
+      "outcome": "not-tested",
+      "review": null
+    },
+    {
+      "id": "3.3.7",
+      "title": "중복 입력",
+      "level": "A",
+      "focus": "같은 과정에서 이미 입력·제공한 정보를 자동 채움 또는 선택할 수 있는지와 예외를 확인한다.",
+      "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#redundant-entry",
+      "outcome": "not-tested",
+      "review": null
+    },
+    {
+      "id": "3.3.8",
+      "title": "접근 가능한 인증 기본",
+      "level": "AA",
+      "focus": "인지 기능 테스트를 요구하는 인증의 대안·지원·객체 인식·개인 콘텐츠 예외를 확인한다.",
+      "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#accessible-authentication-minimum",
+      "outcome": "not-tested",
+      "review": null
+    },
+    {
+      "id": "4.1.2",
+      "title": "이름·역할·값",
+      "level": "A",
+      "focus": "UI의 이름·역할·값·상태를 프로그램과 보조기술이 파악·설정하고 변경 안내를 받는지 확인한다.",
+      "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#name-role-value",
+      "outcome": "fail",
+      "review": null
+    },
+    {
+      "id": "4.1.3",
+      "title": "상태 메시지",
+      "level": "AA",
+      "focus": "포커스 이동 없이 상태 메시지가 역할·속성을 통해 보조기술로 전달되는지 확인한다.",
+      "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#status-messages",
+      "outcome": "not-tested",
+      "review": null
+    }
+  ],
+  "sample": true
+}
