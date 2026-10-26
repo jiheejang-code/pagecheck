@@ -26,3 +26,17 @@ GitHub Pages는 정적 화면을 게시합니다. 실제 브라우저 검사 서
 ## 공식 도움말
 - https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages
 - https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
+
+
+# 검수 시작 버튼 수정본 적용
+
+1. GitHub 저장소 https://github.com/jiheejang-code/pagecheck 를 엽니다.
+2. Add file → Upload files에서 이 ZIP을 압축 해제한 내용물을 업로드합니다. 같은 이름 파일은 교체됩니다. 폴더 자체를 올리지 마세요.
+3. Commit changes로 저장하고 Pages 배포가 완료될 때까지 기다립니다.
+4. https://jiheejang-code.github.io/pagecheck/ 를 열고 Ctrl+Shift+R로 새로고침합니다.
+5. 실행 중인 엔진이 있다면 그대로 사용할 수 있습니다. 엔진이 없다면 포함된 pagecheck-local.zip을 압축 해제하고 설치.bat(최초 1회), 온라인연결.bat를 차례로 실행합니다. 온라인 주소를 입력하고 실행 창을 열어 둡니다.
+6. 새 검수의 ‘검사 엔진 실행·연결 설정’에서 현재 실행 창의 연결 키를 입력하고 검수 시작을 누릅니다. 키는 공개 저장소에 올리지 마세요.
+
+변경한 핵심 파일은 app.js, index.html, pagecheck-local.zip입니다. 공개 저장소에 없던 로컬 실행 패키지도 포함돼 있습니다. data, 로그인 세션, 회사 검수 기록은 포함되지 않습니다.
+
+연결 오류가 나도 입력을 유지하며 원인을 표시합니다. 키 수정 후 같은 폼에서 다시 검수 시작을 누를 수 있습니다. GitHub 게시본에 자동 반영한 상태는 아닙니다.
