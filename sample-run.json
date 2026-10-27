@@ -1,7 +1,7 @@
 {
-  "id": "4fd916b2-75ff-4900-a603-099d9b128556",
-  "createdAt": "2026-10-27T07:03:10.808Z",
-  "updatedAt": "2026-10-27T07:03:15.290Z",
+  "id": "8914462a-b899-461f-961b-1238204bdc3f",
+  "createdAt": "2026-10-27T07:19:57.717Z",
+  "updatedAt": "2026-10-27T07:20:02.198Z",
   "status": "completed",
   "request": {
     "name": "서비스 신청 페이지 · 예시",
@@ -21,13 +21,13 @@
   },
   "states": [
     {
-      "id": "dd6905bb-6105-4863-8322-1bcfb0798f45",
+      "id": "7372e8d2-d221-4790-95b9-ebcef3f38b4c",
       "url": "http://127.0.0.1:47832/fixtures/review-fixture.html",
       "viewport": "desktop",
       "step": 0,
       "label": "초기 화면",
       "status": "completed",
-      "screenshot": "4fd916b2-75ff-4900-a603-099d9b128556/dd6905bb-6105-4863-8322-1bcfb0798f45.png",
+      "screenshot": "8914462a-b899-461f-961b-1238204bdc3f/7372e8d2-d221-4790-95b9-ebcef3f38b4c.png",
       "findings": 5,
       "title": "서비스 신청 — 검사 예시",
       "imageSize": {
@@ -107,7 +107,7 @@
   ],
   "checks": [
     {
-      "id": "96c6fc38-ee56-4bac-ad7f-875d305931e5",
+      "id": "173ae26d-5d7b-4dd4-a3f1-b4b2baaf1f72",
       "kind": "keyboard",
       "label": "키보드 Tab 이동",
       "url": "http://127.0.0.1:47832/fixtures/review-fixture.html",
@@ -116,7 +116,7 @@
         "height": 1000
       },
       "status": "completed",
-      "screenshot": "4fd916b2-75ff-4900-a603-099d9b128556/96c6fc38-ee56-4bac-ad7f-875d305931e5.png",
+      "screenshot": "8914462a-b899-461f-961b-1238204bdc3f/173ae26d-5d7b-4dd4-a3f1-b4b2baaf1f72.png",
       "imageSize": {
         "width": 1440,
         "height": 1000
@@ -137,7 +137,7 @@
       "error": null
     },
     {
-      "id": "e27d173d-d34a-4fc4-872b-c8303c1809fb",
+      "id": "7a99c31c-b887-41b0-94e0-f9c7f84b14a1",
       "kind": "reflow",
       "label": "320px 너비(리플로)",
       "url": "http://127.0.0.1:47832/fixtures/review-fixture.html",
@@ -146,7 +146,7 @@
         "height": 800
       },
       "status": "completed",
-      "screenshot": "4fd916b2-75ff-4900-a603-099d9b128556/e27d173d-d34a-4fc4-872b-c8303c1809fb.png",
+      "screenshot": "8914462a-b899-461f-961b-1238204bdc3f/7a99c31c-b887-41b0-94e0-f9c7f84b14a1.png",
       "imageSize": {
         "width": 640,
         "height": 860
@@ -162,7 +162,7 @@
       "error": null
     },
     {
-      "id": "417b8ad2-9085-4fea-b954-072da4c940d9",
+      "id": "60881059-2527-4688-b008-915e20034c18",
       "kind": "zoom",
       "label": "200% 확대(720px 너비)",
       "url": "http://127.0.0.1:47832/fixtures/review-fixture.html",
@@ -171,7 +171,7 @@
         "height": 500
       },
       "status": "completed",
-      "screenshot": "4fd916b2-75ff-4900-a603-099d9b128556/417b8ad2-9085-4fea-b954-072da4c940d9.png",
+      "screenshot": "8914462a-b899-461f-961b-1238204bdc3f/60881059-2527-4688-b008-915e20034c18.png",
       "imageSize": {
         "width": 720,
         "height": 821
@@ -187,7 +187,7 @@
       "error": null
     },
     {
-      "id": "3de84130-6fc2-4b93-a26b-d263c75fcae1",
+      "id": "8bc11027-8c5c-497d-9958-4c7708cc4509",
       "kind": "spacing",
       "label": "텍스트 간격 넓히기",
       "url": "http://127.0.0.1:47832/fixtures/review-fixture.html",
@@ -196,7 +196,7 @@
         "height": 1000
       },
       "status": "completed",
-      "screenshot": "4fd916b2-75ff-4900-a603-099d9b128556/3de84130-6fc2-4b93-a26b-d263c75fcae1.png",
+      "screenshot": "8914462a-b899-461f-961b-1238204bdc3f/8bc11027-8c5c-497d-9958-4c7708cc4509.png",
       "imageSize": {
         "width": 1440,
         "height": 1000
@@ -265,11 +265,11 @@
           "data": null
         }
       ],
-      "stateId": "dd6905bb-6105-4863-8322-1bcfb0798f45",
+      "stateId": "7372e8d2-d221-4790-95b9-ebcef3f38b4c",
       "url": "http://127.0.0.1:47832/fixtures/review-fixture.html",
       "viewport": "desktop",
       "stateLabel": "초기 화면",
-      "screenshot": "4fd916b2-75ff-4900-a603-099d9b128556/dd6905bb-6105-4863-8322-1bcfb0798f45.png",
+      "screenshot": "8914462a-b899-461f-961b-1238204bdc3f/7372e8d2-d221-4790-95b9-ebcef3f38b4c.png",
       "bounds": {
         "x": 310,
         "y": 510.84375,
@@ -287,7 +287,7 @@
       "source": "axe-core",
       "history": [
         {
-          "at": "2026-10-27T07:03:11.841Z",
+          "at": "2026-10-27T07:19:58.820Z",
           "status": "open",
           "note": "자동 규칙 위반 발견"
         }
@@ -324,11 +324,11 @@
           }
         }
       ],
-      "stateId": "dd6905bb-6105-4863-8322-1bcfb0798f45",
+      "stateId": "7372e8d2-d221-4790-95b9-ebcef3f38b4c",
       "url": "http://127.0.0.1:47832/fixtures/review-fixture.html",
       "viewport": "desktop",
       "stateLabel": "초기 화면",
-      "screenshot": "4fd916b2-75ff-4900-a603-099d9b128556/dd6905bb-6105-4863-8322-1bcfb0798f45.png",
+      "screenshot": "8914462a-b899-461f-961b-1238204bdc3f/7372e8d2-d221-4790-95b9-ebcef3f38b4c.png",
       "bounds": {
         "x": 310,
         "y": 289.84375,
@@ -346,7 +346,7 @@
       "source": "axe-core",
       "history": [
         {
-          "at": "2026-10-27T07:03:11.841Z",
+          "at": "2026-10-27T07:19:58.820Z",
           "status": "open",
           "note": "자동 규칙 위반 발견"
         }
@@ -376,11 +376,11 @@
           "data": null
         }
       ],
-      "stateId": "dd6905bb-6105-4863-8322-1bcfb0798f45",
+      "stateId": "7372e8d2-d221-4790-95b9-ebcef3f38b4c",
       "url": "http://127.0.0.1:47832/fixtures/review-fixture.html",
       "viewport": "desktop",
       "stateLabel": "초기 화면",
-      "screenshot": "4fd916b2-75ff-4900-a603-099d9b128556/dd6905bb-6105-4863-8322-1bcfb0798f45.png",
+      "screenshot": "8914462a-b899-461f-961b-1238204bdc3f/7372e8d2-d221-4790-95b9-ebcef3f38b4c.png",
       "bounds": {
         "x": 0,
         "y": 0,
@@ -398,7 +398,7 @@
       "source": "axe-core",
       "history": [
         {
-          "at": "2026-10-27T07:03:11.841Z",
+          "at": "2026-10-27T07:19:58.820Z",
           "status": "open",
           "note": "자동 규칙 위반 발견"
         }
@@ -452,11 +452,11 @@
           "data": null
         }
       ],
-      "stateId": "dd6905bb-6105-4863-8322-1bcfb0798f45",
+      "stateId": "7372e8d2-d221-4790-95b9-ebcef3f38b4c",
       "url": "http://127.0.0.1:47832/fixtures/review-fixture.html",
       "viewport": "desktop",
       "stateLabel": "초기 화면",
-      "screenshot": "4fd916b2-75ff-4900-a603-099d9b128556/dd6905bb-6105-4863-8322-1bcfb0798f45.png",
+      "screenshot": "8914462a-b899-461f-961b-1238204bdc3f/7372e8d2-d221-4790-95b9-ebcef3f38b4c.png",
       "bounds": {
         "x": 310,
         "y": 160,
@@ -474,7 +474,7 @@
       "source": "axe-core",
       "history": [
         {
-          "at": "2026-10-27T07:03:11.841Z",
+          "at": "2026-10-27T07:19:58.820Z",
           "status": "open",
           "note": "자동 규칙 위반 발견"
         }
@@ -534,11 +534,11 @@
           "data": null
         }
       ],
-      "stateId": "dd6905bb-6105-4863-8322-1bcfb0798f45",
+      "stateId": "7372e8d2-d221-4790-95b9-ebcef3f38b4c",
       "url": "http://127.0.0.1:47832/fixtures/review-fixture.html",
       "viewport": "desktop",
       "stateLabel": "초기 화면",
-      "screenshot": "4fd916b2-75ff-4900-a603-099d9b128556/dd6905bb-6105-4863-8322-1bcfb0798f45.png",
+      "screenshot": "8914462a-b899-461f-961b-1238204bdc3f/7372e8d2-d221-4790-95b9-ebcef3f38b4c.png",
       "bounds": {
         "x": 310,
         "y": 363.84375,
@@ -556,7 +556,7 @@
       "source": "axe-core",
       "history": [
         {
-          "at": "2026-10-27T07:03:11.841Z",
+          "at": "2026-10-27T07:19:58.820Z",
           "status": "open",
           "note": "자동 규칙 위반 발견"
         }
@@ -580,11 +580,11 @@
       "html": "<button class=\"plain\" type=\"button\">더 보기</button>",
       "explanation": "이 요소(더 보기)는 포커스를 받아도 테두리·그림자·색이 바뀌지 않았습니다. 화면에서 포커스 위치를 알 수 있는지 확인하세요.",
       "checks": [],
-      "stateId": "96c6fc38-ee56-4bac-ad7f-875d305931e5",
+      "stateId": "173ae26d-5d7b-4dd4-a3f1-b4b2baaf1f72",
       "url": "http://127.0.0.1:47832/fixtures/review-fixture.html",
       "viewport": "desktop",
       "stateLabel": "키보드 Tab 이동",
-      "screenshot": "4fd916b2-75ff-4900-a603-099d9b128556/96c6fc38-ee56-4bac-ad7f-875d305931e5.png",
+      "screenshot": "8914462a-b899-461f-961b-1238204bdc3f/173ae26d-5d7b-4dd4-a3f1-b4b2baaf1f72.png",
       "bounds": {
         "x": 310,
         "y": 664.84375,
@@ -603,7 +603,7 @@
       "source": "pagecheck",
       "history": [
         {
-          "at": "2026-10-27T07:03:15.174Z",
+          "at": "2026-10-27T07:20:02.198Z",
           "status": "open",
           "note": "키보드·확대 자동 확인에서 발견, 사람 확인 필요"
         }
@@ -627,11 +627,11 @@
       "html": "<div class=\"card\" onclick=\"void 0\">상세 보기</div>",
       "explanation": "이 요소(상세 보기)는 마우스를 올리면 손 모양 커서가 되지만 Tab으로 갈 수 없습니다. 클릭하면 기능이 실행된다면 키보드로도 쓸 수 있어야 합니다.",
       "checks": [],
-      "stateId": "96c6fc38-ee56-4bac-ad7f-875d305931e5",
+      "stateId": "173ae26d-5d7b-4dd4-a3f1-b4b2baaf1f72",
       "url": "http://127.0.0.1:47832/fixtures/review-fixture.html",
       "viewport": "desktop",
       "stateLabel": "키보드 Tab 이동",
-      "screenshot": "4fd916b2-75ff-4900-a603-099d9b128556/96c6fc38-ee56-4bac-ad7f-875d305931e5.png",
+      "screenshot": "8914462a-b899-461f-961b-1238204bdc3f/173ae26d-5d7b-4dd4-a3f1-b4b2baaf1f72.png",
       "bounds": {
         "x": 310,
         "y": 627.84375,
@@ -650,7 +650,7 @@
       "source": "pagecheck",
       "history": [
         {
-          "at": "2026-10-27T07:03:15.174Z",
+          "at": "2026-10-27T07:20:02.198Z",
           "status": "open",
           "note": "키보드·확대 자동 확인에서 발견, 사람 확인 필요"
         }
@@ -674,11 +674,11 @@
       "html": "<div class=\"wide\">신청 안내 표</div>",
       "explanation": "이 요소(신청 안내 표)가 화면 오른쪽 밖으로 나가 가로 스크롤이 생깁니다(페이지 너비 640px / 화면 320px). 표·지도처럼 가로 배치가 꼭 필요한 내용인지 확인하세요.",
       "checks": [],
-      "stateId": "e27d173d-d34a-4fc4-872b-c8303c1809fb",
+      "stateId": "7a99c31c-b887-41b0-94e0-f9c7f84b14a1",
       "url": "http://127.0.0.1:47832/fixtures/review-fixture.html",
       "viewport": "mobile",
       "stateLabel": "320px 너비(리플로)",
-      "screenshot": "4fd916b2-75ff-4900-a603-099d9b128556/e27d173d-d34a-4fc4-872b-c8303c1809fb.png",
+      "screenshot": "8914462a-b899-461f-961b-1238204bdc3f/7a99c31c-b887-41b0-94e0-f9c7f84b14a1.png",
       "bounds": {
         "x": 40,
         "y": 753.84375,
@@ -697,7 +697,7 @@
       "source": "pagecheck",
       "history": [
         {
-          "at": "2026-10-27T07:03:15.174Z",
+          "at": "2026-10-27T07:20:02.198Z",
           "status": "open",
           "note": "키보드·확대 자동 확인에서 발견, 사람 확인 필요"
         }
@@ -721,11 +721,11 @@
       "html": "<div class=\"clip\">신청 전에 꼭 읽어 주세요.</div>",
       "explanation": "간격을 넓혔더니 이 요소(신청 전에 꼭 읽어 주세요.)의 글자가 상자 밖으로 넘쳐 잘립니다. 높이·너비를 고정하지 않았는지 확인하세요.",
       "checks": [],
-      "stateId": "3de84130-6fc2-4b93-a26b-d263c75fcae1",
+      "stateId": "8bc11027-8c5c-497d-9958-4c7708cc4509",
       "url": "http://127.0.0.1:47832/fixtures/review-fixture.html",
       "viewport": "desktop",
       "stateLabel": "텍스트 간격 넓히기",
-      "screenshot": "4fd916b2-75ff-4900-a603-099d9b128556/3de84130-6fc2-4b93-a26b-d263c75fcae1.png",
+      "screenshot": "8914462a-b899-461f-961b-1238204bdc3f/8bc11027-8c5c-497d-9958-4c7708cc4509.png",
       "bounds": {
         "x": 310,
         "y": 782.28125,
@@ -744,7 +744,7 @@
       "source": "pagecheck",
       "history": [
         {
-          "at": "2026-10-27T07:03:15.174Z",
+          "at": "2026-10-27T07:20:02.198Z",
           "status": "open",
           "note": "키보드·확대 자동 확인에서 발견, 사람 확인 필요"
         }
@@ -754,35 +754,35 @@
   "reviews": {},
   "logs": [
     {
-      "at": "2026-10-27T07:03:10.808Z",
+      "at": "2026-10-27T07:19:57.718Z",
       "message": "브라우저 검사 시작"
     },
     {
-      "at": "2026-10-27T07:03:11.841Z",
+      "at": "2026-10-27T07:19:58.820Z",
       "message": "초기 화면 · PC 검사 완료"
     },
     {
-      "at": "2026-10-27T07:03:11.853Z",
+      "at": "2026-10-27T07:19:58.834Z",
       "message": "키보드·확대 자동 확인 시작"
     },
     {
-      "at": "2026-10-27T07:03:15.174Z",
+      "at": "2026-10-27T07:20:02.198Z",
       "message": "키보드 Tab 이동 확인 완료"
     },
     {
-      "at": "2026-10-27T07:03:15.174Z",
+      "at": "2026-10-27T07:20:02.198Z",
       "message": "320px 너비(리플로) 확인 완료"
     },
     {
-      "at": "2026-10-27T07:03:15.174Z",
+      "at": "2026-10-27T07:20:02.198Z",
       "message": "200% 확대(720px 너비) 확인 완료"
     },
     {
-      "at": "2026-10-27T07:03:15.174Z",
+      "at": "2026-10-27T07:20:02.198Z",
       "message": "텍스트 간격 넓히기 확인 완료"
     },
     {
-      "at": "2026-10-27T07:03:15.174Z",
+      "at": "2026-10-27T07:20:02.198Z",
       "message": "검사 종료 · 자동 규칙 결과와 전체 기준 평가를 구분해 확인하세요."
     }
   ],
@@ -1062,11 +1062,11 @@
       ],
       "evidence": [
         {
-          "checkId": "417b8ad2-9085-4fea-b954-072da4c940d9",
+          "checkId": "60881059-2527-4688-b008-915e20034c18",
           "kind": "zoom",
           "label": "200% 확대(720px 너비)",
           "url": "http://127.0.0.1:47832/fixtures/review-fixture.html",
-          "screenshot": "4fd916b2-75ff-4900-a603-099d9b128556/417b8ad2-9085-4fea-b954-072da4c940d9.png",
+          "screenshot": "8914462a-b899-461f-961b-1238204bdc3f/60881059-2527-4688-b008-915e20034c18.png",
           "text": "200% 확대(720px 너비): 가로 스크롤이 생기지 않았습니다. 새로 잘린 글자 0곳."
         }
       ],
@@ -1102,11 +1102,11 @@
       ],
       "evidence": [
         {
-          "checkId": "e27d173d-d34a-4fc4-872b-c8303c1809fb",
+          "checkId": "7a99c31c-b887-41b0-94e0-f9c7f84b14a1",
           "kind": "reflow",
           "label": "320px 너비(리플로)",
           "url": "http://127.0.0.1:47832/fixtures/review-fixture.html",
-          "screenshot": "4fd916b2-75ff-4900-a603-099d9b128556/e27d173d-d34a-4fc4-872b-c8303c1809fb.png",
+          "screenshot": "8914462a-b899-461f-961b-1238204bdc3f/7a99c31c-b887-41b0-94e0-f9c7f84b14a1.png",
           "text": "320px 너비: 가로 스크롤이 생깁니다(페이지 너비 640px). 새로 잘린 글자 0곳."
         }
       ],
@@ -1143,11 +1143,11 @@
       ],
       "evidence": [
         {
-          "checkId": "3de84130-6fc2-4b93-a26b-d263c75fcae1",
+          "checkId": "8bc11027-8c5c-497d-9958-4c7708cc4509",
           "kind": "spacing",
           "label": "텍스트 간격 넓히기",
           "url": "http://127.0.0.1:47832/fixtures/review-fixture.html",
-          "screenshot": "4fd916b2-75ff-4900-a603-099d9b128556/3de84130-6fc2-4b93-a26b-d263c75fcae1.png",
+          "screenshot": "8914462a-b899-461f-961b-1238204bdc3f/8bc11027-8c5c-497d-9958-4c7708cc4509.png",
           "text": "줄 간격 1.5배·글자 간격 0.12배·단어 간격 0.16배·문단 간격 2배를 적용했습니다. 새로 잘린 글자 1곳."
         }
       ],
@@ -1184,11 +1184,11 @@
       ],
       "evidence": [
         {
-          "checkId": "96c6fc38-ee56-4bac-ad7f-875d305931e5",
+          "checkId": "173ae26d-5d7b-4dd4-a3f1-b4b2baaf1f72",
           "kind": "keyboard",
           "label": "키보드 Tab 이동",
           "url": "http://127.0.0.1:47832/fixtures/review-fixture.html",
-          "screenshot": "4fd916b2-75ff-4900-a603-099d9b128556/96c6fc38-ee56-4bac-ad7f-875d305931e5.png",
+          "screenshot": "8914462a-b899-461f-961b-1238204bdc3f/173ae26d-5d7b-4dd4-a3f1-b4b2baaf1f72.png",
           "text": "Tab으로 5곳에 이동했습니다. 마우스로만 누를 수 있는 요소 후보 1개."
         }
       ],
@@ -1209,11 +1209,11 @@
       ],
       "evidence": [
         {
-          "checkId": "96c6fc38-ee56-4bac-ad7f-875d305931e5",
+          "checkId": "173ae26d-5d7b-4dd4-a3f1-b4b2baaf1f72",
           "kind": "keyboard",
           "label": "키보드 Tab 이동",
           "url": "http://127.0.0.1:47832/fixtures/review-fixture.html",
-          "screenshot": "4fd916b2-75ff-4900-a603-099d9b128556/96c6fc38-ee56-4bac-ad7f-875d305931e5.png",
+          "screenshot": "8914462a-b899-461f-961b-1238204bdc3f/173ae26d-5d7b-4dd4-a3f1-b4b2baaf1f72.png",
           "text": "Tab을 계속 눌러 페이지 끝까지 갔습니다. 갇힌 곳은 발견되지 않았습니다."
         }
       ],
@@ -1297,11 +1297,11 @@
       ],
       "evidence": [
         {
-          "checkId": "96c6fc38-ee56-4bac-ad7f-875d305931e5",
+          "checkId": "173ae26d-5d7b-4dd4-a3f1-b4b2baaf1f72",
           "kind": "keyboard",
           "label": "키보드 Tab 이동",
           "url": "http://127.0.0.1:47832/fixtures/review-fixture.html",
-          "screenshot": "4fd916b2-75ff-4900-a603-099d9b128556/96c6fc38-ee56-4bac-ad7f-875d305931e5.png",
+          "screenshot": "8914462a-b899-461f-961b-1238204bdc3f/173ae26d-5d7b-4dd4-a3f1-b4b2baaf1f72.png",
           "text": "첫 Tab 위치에 건너뛰기 링크가 없습니다(‘input’). 랜드마크 main 1개·nav 0개, 제목 1개."
         }
       ],
@@ -1337,11 +1337,11 @@
       ],
       "evidence": [
         {
-          "checkId": "96c6fc38-ee56-4bac-ad7f-875d305931e5",
+          "checkId": "173ae26d-5d7b-4dd4-a3f1-b4b2baaf1f72",
           "kind": "keyboard",
           "label": "키보드 Tab 이동",
           "url": "http://127.0.0.1:47832/fixtures/review-fixture.html",
-          "screenshot": "4fd916b2-75ff-4900-a603-099d9b128556/96c6fc38-ee56-4bac-ad7f-875d305931e5.png",
+          "screenshot": "8914462a-b899-461f-961b-1238204bdc3f/173ae26d-5d7b-4dd4-a3f1-b4b2baaf1f72.png",
           "text": "포커스 순서를 번호로 표시한 화면을 남겼습니다. 번호가 읽는 순서와 맞는지 보세요."
         }
       ],
@@ -1408,11 +1408,11 @@
       ],
       "evidence": [
         {
-          "checkId": "96c6fc38-ee56-4bac-ad7f-875d305931e5",
+          "checkId": "173ae26d-5d7b-4dd4-a3f1-b4b2baaf1f72",
           "kind": "keyboard",
           "label": "키보드 Tab 이동",
           "url": "http://127.0.0.1:47832/fixtures/review-fixture.html",
-          "screenshot": "4fd916b2-75ff-4900-a603-099d9b128556/96c6fc38-ee56-4bac-ad7f-875d305931e5.png",
+          "screenshot": "8914462a-b899-461f-961b-1238204bdc3f/173ae26d-5d7b-4dd4-a3f1-b4b2baaf1f72.png",
           "text": "포커스 표시가 바뀌지 않은 요소 1개, 화면 밖 포커스 0개."
         }
       ],
@@ -1432,11 +1432,11 @@
       ],
       "evidence": [
         {
-          "checkId": "96c6fc38-ee56-4bac-ad7f-875d305931e5",
+          "checkId": "173ae26d-5d7b-4dd4-a3f1-b4b2baaf1f72",
           "kind": "keyboard",
           "label": "키보드 Tab 이동",
           "url": "http://127.0.0.1:47832/fixtures/review-fixture.html",
-          "screenshot": "4fd916b2-75ff-4900-a603-099d9b128556/96c6fc38-ee56-4bac-ad7f-875d305931e5.png",
+          "screenshot": "8914462a-b899-461f-961b-1238204bdc3f/173ae26d-5d7b-4dd4-a3f1-b4b2baaf1f72.png",
           "text": "다른 요소에 완전히 가려진 포커스 0개."
         }
       ],
@@ -1581,11 +1581,11 @@
       ],
       "evidence": [
         {
-          "checkId": "96c6fc38-ee56-4bac-ad7f-875d305931e5",
+          "checkId": "173ae26d-5d7b-4dd4-a3f1-b4b2baaf1f72",
           "kind": "keyboard",
           "label": "키보드 Tab 이동",
           "url": "http://127.0.0.1:47832/fixtures/review-fixture.html",
-          "screenshot": "4fd916b2-75ff-4900-a603-099d9b128556/96c6fc38-ee56-4bac-ad7f-875d305931e5.png",
+          "screenshot": "8914462a-b899-461f-961b-1238204bdc3f/173ae26d-5d7b-4dd4-a3f1-b4b2baaf1f72.png",
           "text": "Tab 이동 중 주소가 바뀌거나 새 창이 열리지 않았습니다."
         }
       ],
