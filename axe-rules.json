@@ -1,0 +1,394 @@
+{
+ "version": "4.10.3",
+ "rules": {
+  "area-alt": {
+   "sc": [
+    "2.4.4",
+    "4.1.2"
+   ],
+   "help": "활성 <area> 엘리먼트는 반드시 대체텍스트를 가져야 합니다."
+  },
+  "aria-allowed-attr": {
+   "sc": [
+    "4.1.2"
+   ],
+   "help": "엘리먼트는 반드시 허용된 ARIA 어트리뷰트만 사용해야 합니다."
+  },
+  "aria-braille-equivalent": {
+   "sc": [
+    "4.1.2"
+   ],
+   "help": "점자용 aria 속성에는 점자가 아닌 대응 속성이 함께 있어야 합니다."
+  },
+  "aria-command-name": {
+   "sc": [
+    "4.1.2"
+   ],
+   "help": "ARIA 명령 엘리먼트에는 반드시 접근 가능한 이름이 있어야 합니다."
+  },
+  "aria-conditional-attr": {
+   "sc": [
+    "4.1.2"
+   ],
+   "help": "ARIA 속성은 요소의 역할에 맞게 사용해야 합니다."
+  },
+  "aria-deprecated-role": {
+   "sc": [
+    "4.1.2"
+   ],
+   "help": "더 이상 쓰지 않는 ARIA 역할을 사용하면 안 됩니다."
+  },
+  "aria-hidden-body": {
+   "sc": [
+    "1.3.1",
+    "4.1.2"
+   ],
+   "help": "aria-hidden='true'는 반드시 문서 body에 없어야 합니다."
+  },
+  "aria-hidden-focus": {
+   "sc": [
+    "4.1.2"
+   ],
+   "help": "ARIA hidden 엘리먼트는 반드시 초점을 얻을 수 있는(focusable) 엘리먼트를 포함하지 않아야 합니다."
+  },
+  "aria-input-field-name": {
+   "sc": [
+    "4.1.2"
+   ],
+   "help": "ARIA 입력 필드에는 반드시 접근 가능한 이름이 있어야 합니다."
+  },
+  "aria-meter-name": {
+   "sc": [
+    "1.1.1"
+   ],
+   "help": "ARIA meter 노드에는 반드시 접근 가능한 이름이 있어야 합니다."
+  },
+  "aria-progressbar-name": {
+   "sc": [
+    "1.1.1"
+   ],
+   "help": "ARIA progressbar 노드에는 반드시 접근 가능한 이름이 있어야 합니다."
+  },
+  "aria-prohibited-attr": {
+   "sc": [
+    "4.1.2"
+   ],
+   "help": "요소에 허용된 ARIA 속성만 사용해야 합니다."
+  },
+  "aria-required-attr": {
+   "sc": [
+    "4.1.2"
+   ],
+   "help": "필수 ARIA 어트리뷰트는 반드시 제공되어야 합니다."
+  },
+  "aria-required-children": {
+   "sc": [
+    "1.3.1"
+   ],
+   "help": "일부 ARIA 역할(role)은 반드시 특정한 하위 항목들을 포함해야 합니다."
+  },
+  "aria-required-parent": {
+   "sc": [
+    "1.3.1"
+   ],
+   "help": "일부 ARIA 역할(role)은 반드시 특정한 상위 항목들에 포함되어야 합니다."
+  },
+  "aria-roledescription": {
+   "sc": [
+    "4.1.2"
+   ],
+   "help": "aria-roledescription은 의미론적 역할(role)을 가진 엘리먼트에 사용하세요."
+  },
+  "aria-roles": {
+   "sc": [
+    "4.1.2"
+   ],
+   "help": "ARIA 역할(role)은 반드시 유효한 값을 준수해야 합니다."
+  },
+  "aria-toggle-field-name": {
+   "sc": [
+    "4.1.2"
+   ],
+   "help": "ARIA toggle 필드는 접근 가능한 이름을 가져야 합니다."
+  },
+  "aria-tooltip-name": {
+   "sc": [
+    "4.1.2"
+   ],
+   "help": "ARIA tooltip 노드는 반드시 접근 가능한 이름을 가져야 합니다."
+  },
+  "aria-valid-attr-value": {
+   "sc": [
+    "4.1.2"
+   ],
+   "help": "ARIA 어트리뷰트는 반드시 유효한 값을 준수해야 합니다."
+  },
+  "aria-valid-attr": {
+   "sc": [
+    "4.1.2"
+   ],
+   "help": "ARIA 어트리뷰트는 반드시 유효한 이름을 준수해야 합니다."
+  },
+  "audio-caption": {
+   "sc": [
+    "1.2.1"
+   ],
+   "help": "<audio> 엘리먼트는 반드시 캡션(자막) 트랙을 가져야 합니다."
+  },
+  "autocomplete-valid": {
+   "sc": [
+    "1.3.5"
+   ],
+   "help": "autocomplete 어트리뷰트는 반드시 올바르게 사용되어야 합니다."
+  },
+  "avoid-inline-spacing": {
+   "sc": [
+    "1.4.12"
+   ],
+   "help": "인라인 텍스트 간격은 반드시 사용자 정의 스타일시트로 조정 될 수 있어야 합니다."
+  },
+  "blink": {
+   "sc": [
+    "2.2.2"
+   ],
+   "help": "<blink> 엘리먼트는 더 이상 사용되지 않으며 반드시 사용되지 않아야 합니다."
+  },
+  "button-name": {
+   "sc": [
+    "4.1.2"
+   ],
+   "help": "버튼에 반드시 인식 가능한 텍스트가 있어야 합니다."
+  },
+  "bypass": {
+   "sc": [
+    "2.4.1"
+   ],
+   "help": "페이지에는 반드시 반복 되는 블럭을 건너 뛸 수 있는 수단이 있어야 합니다."
+  },
+  "color-contrast": {
+   "sc": [
+    "1.4.3"
+   ],
+   "help": "엘리먼트는 반드시 충분한 명도 대비를 가져야 합니다."
+  },
+  "definition-list": {
+   "sc": [
+    "1.3.1"
+   ],
+   "help": "<dl> 엘리먼트는 반드시 올바르게 정렬된 <dt>와 <dd> 그룹, <script>, <template>, <div> 엘리먼트만 바로 포함해야 합니다."
+  },
+  "dlitem": {
+   "sc": [
+    "1.3.1"
+   ],
+   "help": "<dt>와 <dd> 엘리먼트는 반드시 <dl>에 포함되어야 합니다."
+  },
+  "document-title": {
+   "sc": [
+    "2.4.2"
+   ],
+   "help": "탐색에 도움이 되도록 문서에는 반드시 <title>이 있어야 합니다."
+  },
+  "duplicate-id-aria": {
+   "sc": [
+    "4.1.2"
+   ],
+   "help": "ARIA 및 label에 사용된 ID는 반드시 고유해야 합니다."
+  },
+  "form-field-multiple-labels": {
+   "sc": [
+    "3.3.2"
+   ],
+   "help": "form 필드는 반드시 여러 개의 레이블 엘리먼트를 가지지 않아야 합니다."
+  },
+  "frame-focusable-content": {
+   "sc": [
+    "2.1.1"
+   ],
+   "help": "초점을 얻을 수 있는(focusable) 콘텐츠를 가진 프레임에는 반드시 tabindex=-1 이 없어야 합니다."
+  },
+  "frame-title-unique": {
+   "sc": [
+    "4.1.2"
+   ],
+   "help": "프레임에는 고유한 title 어트리뷰트가 있어야 합니다."
+  },
+  "frame-title": {
+   "sc": [
+    "4.1.2"
+   ],
+   "help": "프레임에는 반드시 접근 가능한 이름이 있어야 합니다."
+  },
+  "html-has-lang": {
+   "sc": [
+    "3.1.1"
+   ],
+   "help": "<html> 엘리먼트는 반드시 lang 어트리뷰트를 가져야 합니다."
+  },
+  "html-lang-valid": {
+   "sc": [
+    "3.1.1"
+   ],
+   "help": "<html> 엘리먼트는 반드시 lang 어트리뷰트에 유효한 값을 가져야 합니다."
+  },
+  "html-xml-lang-mismatch": {
+   "sc": [
+    "3.1.1"
+   ],
+   "help": "lang과 xml:lang을 가진 HTML 엘리먼트는 반드시 동일한 기본 언어를 가져야 합니다."
+  },
+  "image-alt": {
+   "sc": [
+    "1.1.1"
+   ],
+   "help": "이미지는 반드시 대체텍스트를 가져야 합니다."
+  },
+  "input-button-name": {
+   "sc": [
+    "4.1.2"
+   ],
+   "help": "입력 버튼은 반드시 인식 가능한 텍스트를 가져야 합니다."
+  },
+  "input-image-alt": {
+   "sc": [
+    "1.1.1",
+    "4.1.2"
+   ],
+   "help": "이미지 버튼은 반드시 대체텍스트를 가져야 합니다."
+  },
+  "label": {
+   "sc": [
+    "4.1.2"
+   ],
+   "help": "form 엘리먼트는 반드시 레이블을 가져야 합니다."
+  },
+  "link-in-text-block": {
+   "sc": [
+    "1.4.1"
+   ],
+   "help": "링크는 반드시 색상에 의존하지 않는 방식으로 주변 텍스트로부터 구별되어야 합니다."
+  },
+  "link-name": {
+   "sc": [
+    "2.4.4",
+    "4.1.2"
+   ],
+   "help": "링크는 반드시 인식 가능한 텍스트를 가져야 합니다."
+  },
+  "list": {
+   "sc": [
+    "1.3.1"
+   ],
+   "help": "<ul>과 <ol>은 반드시 <li>, <script> 또는 <template> 엘리먼트만을 바로 포함해야 합니다."
+  },
+  "listitem": {
+   "sc": [
+    "1.3.1"
+   ],
+   "help": "<li> 엘리먼트는 반드시 <ul>이나 <ol>에 포함되어야 합니다."
+  },
+  "marquee": {
+   "sc": [
+    "2.2.2"
+   ],
+   "help": "<marquee> 엘리먼트는 더 이상 사용되지 않으며 반드시 사용되지 않아야 합니다."
+  },
+  "meta-refresh": {
+   "sc": [
+    "2.2.1"
+   ],
+   "help": "시간 제한 새로고침은 존재하지 않아야 합니다."
+  },
+  "meta-viewport": {
+   "sc": [
+    "1.4.4"
+   ],
+   "help": "확대/축소 및 크기 조정은 비활성화되지 않아야 합니다."
+  },
+  "nested-interactive": {
+   "sc": [
+    "4.1.2"
+   ],
+   "help": "대화형 컨트롤이 중첩되지 않게 하세요."
+  },
+  "no-autoplay-audio": {
+   "sc": [
+    "1.4.2"
+   ],
+   "help": "<video>나 <audio> 엘리먼트는 오디오를 자동 재생하지 않아야 합니다."
+  },
+  "object-alt": {
+   "sc": [
+    "1.1.1"
+   ],
+   "help": "<object> 엘리먼트는 반드시 대체텍스트를 가져야 합니다."
+  },
+  "role-img-alt": {
+   "sc": [
+    "1.1.1"
+   ],
+   "help": "[role='img'] 엘리먼트는 대체텍스트를 가저야 합니다."
+  },
+  "scrollable-region-focusable": {
+   "sc": [
+    "2.1.1",
+    "2.1.3"
+   ],
+   "help": "스크롤 가능한 영역이 키보드 접근을 가져야 합니다."
+  },
+  "select-name": {
+   "sc": [
+    "4.1.2"
+   ],
+   "help": "select 엘리먼트는 반드시 접근 가능한 이름을 가져야 합니다."
+  },
+  "server-side-image-map": {
+   "sc": [
+    "2.1.1"
+   ],
+   "help": "서버 사이드 이미지 맵은 반드시 사용되지 않아야 합니다."
+  },
+  "summary-name": {
+   "sc": [
+    "4.1.2"
+   ],
+   "help": "summary 요소에는 알아볼 수 있는 텍스트가 있어야 합니다."
+  },
+  "svg-img-alt": {
+   "sc": [
+    "1.1.1"
+   ],
+   "help": "img 역할(role)을 가진 svg 엘리먼트는 접근 가능한 텍스트를 가져야 합니다."
+  },
+  "target-size": {
+   "sc": [
+    "2.5.8"
+   ],
+   "help": "터치 대상은 24px 이상이거나 주변에 충분한 간격이 있어야 합니다."
+  },
+  "td-headers-attr": {
+   "sc": [
+    "1.3.1"
+   ],
+   "help": "headers 어트리뷰트를 사용하는 table 엘리먼트의 모든 셀은 반드시 그 동일한 테이블의 다른 셀만 참조해야 합니다."
+  },
+  "th-has-data-cells": {
+   "sc": [
+    "1.3.1"
+   ],
+   "help": "모든 th 엘리먼트와 role=columnheader/rowheader를 가진 엘리먼트는 반드시 그것들이 설명하는 데이터 셀을 가져야 합니다."
+  },
+  "valid-lang": {
+   "sc": [
+    "3.1.2"
+   ],
+   "help": "lang 어트리뷰트는 반드시 유효한 값을 가져야 합니다."
+  },
+  "video-caption": {
+   "sc": [
+    "1.2.2"
+   ],
+   "help": "<video> 엘리먼트는 반드시 캡션(자막)을 가져야 합니다."
+  }
+ }
+}
