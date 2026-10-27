@@ -1,7 +1,7 @@
 {
-  "id": "c69f61d2-c8d0-49d1-8c8e-51511bc5a5b5",
-  "createdAt": "2026-10-27T06:45:07.540Z",
-  "updatedAt": "2026-10-27T06:45:08.698Z",
+  "id": "4fd916b2-75ff-4900-a603-099d9b128556",
+  "createdAt": "2026-10-27T07:03:10.808Z",
+  "updatedAt": "2026-10-27T07:03:15.290Z",
   "status": "completed",
   "request": {
     "name": "서비스 신청 페이지 · 예시",
@@ -21,13 +21,13 @@
   },
   "states": [
     {
-      "id": "cdf34c76-5f16-4566-96b7-1b0c2069a302",
+      "id": "dd6905bb-6105-4863-8322-1bcfb0798f45",
       "url": "http://127.0.0.1:47832/fixtures/review-fixture.html",
       "viewport": "desktop",
       "step": 0,
       "label": "초기 화면",
       "status": "completed",
-      "screenshot": "c69f61d2-c8d0-49d1-8c8e-51511bc5a5b5/cdf34c76-5f16-4566-96b7-1b0c2069a302.png",
+      "screenshot": "4fd916b2-75ff-4900-a603-099d9b128556/dd6905bb-6105-4863-8322-1bcfb0798f45.png",
       "findings": 5,
       "title": "서비스 신청 — 검사 예시",
       "imageSize": {
@@ -105,6 +105,111 @@
       }
     }
   ],
+  "checks": [
+    {
+      "id": "96c6fc38-ee56-4bac-ad7f-875d305931e5",
+      "kind": "keyboard",
+      "label": "키보드 Tab 이동",
+      "url": "http://127.0.0.1:47832/fixtures/review-fixture.html",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": "completed",
+      "screenshot": "4fd916b2-75ff-4900-a603-099d9b128556/96c6fc38-ee56-4bac-ad7f-875d305931e5.png",
+      "imageSize": {
+        "width": 1440,
+        "height": 1000
+      },
+      "notes": {
+        "2.1.1": "Tab으로 5곳에 이동했습니다. 마우스로만 누를 수 있는 요소 후보 1개.",
+        "2.1.2": "Tab을 계속 눌러 페이지 끝까지 갔습니다. 갇힌 곳은 발견되지 않았습니다.",
+        "2.4.1": "첫 Tab 위치에 건너뛰기 링크가 없습니다(‘input’). 랜드마크 main 1개·nav 0개, 제목 1개.",
+        "2.4.3": "포커스 순서를 번호로 표시한 화면을 남겼습니다. 번호가 읽는 순서와 맞는지 보세요.",
+        "2.4.7": "포커스 표시가 바뀌지 않은 요소 1개, 화면 밖 포커스 0개.",
+        "2.4.11": "다른 요소에 완전히 가려진 포커스 0개.",
+        "3.2.1": "Tab 이동 중 주소가 바뀌거나 새 창이 열리지 않았습니다."
+      },
+      "summary": {
+        "stops": 5,
+        "reachedEnd": true
+      },
+      "error": null
+    },
+    {
+      "id": "e27d173d-d34a-4fc4-872b-c8303c1809fb",
+      "kind": "reflow",
+      "label": "320px 너비(리플로)",
+      "url": "http://127.0.0.1:47832/fixtures/review-fixture.html",
+      "viewport": {
+        "width": 320,
+        "height": 800
+      },
+      "status": "completed",
+      "screenshot": "4fd916b2-75ff-4900-a603-099d9b128556/e27d173d-d34a-4fc4-872b-c8303c1809fb.png",
+      "imageSize": {
+        "width": 640,
+        "height": 860
+      },
+      "notes": {
+        "1.4.10": "320px 너비: 가로 스크롤이 생깁니다(페이지 너비 640px). 새로 잘린 글자 0곳."
+      },
+      "summary": {
+        "scrollWidth": 640,
+        "width": 320,
+        "clipped": 0
+      },
+      "error": null
+    },
+    {
+      "id": "417b8ad2-9085-4fea-b954-072da4c940d9",
+      "kind": "zoom",
+      "label": "200% 확대(720px 너비)",
+      "url": "http://127.0.0.1:47832/fixtures/review-fixture.html",
+      "viewport": {
+        "width": 720,
+        "height": 500
+      },
+      "status": "completed",
+      "screenshot": "4fd916b2-75ff-4900-a603-099d9b128556/417b8ad2-9085-4fea-b954-072da4c940d9.png",
+      "imageSize": {
+        "width": 720,
+        "height": 821
+      },
+      "notes": {
+        "1.4.4": "200% 확대(720px 너비): 가로 스크롤이 생기지 않았습니다. 새로 잘린 글자 0곳."
+      },
+      "summary": {
+        "scrollWidth": 720,
+        "width": 720,
+        "clipped": 0
+      },
+      "error": null
+    },
+    {
+      "id": "3de84130-6fc2-4b93-a26b-d263c75fcae1",
+      "kind": "spacing",
+      "label": "텍스트 간격 넓히기",
+      "url": "http://127.0.0.1:47832/fixtures/review-fixture.html",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": "completed",
+      "screenshot": "4fd916b2-75ff-4900-a603-099d9b128556/3de84130-6fc2-4b93-a26b-d263c75fcae1.png",
+      "imageSize": {
+        "width": 1440,
+        "height": 1000
+      },
+      "notes": {
+        "1.4.12": "줄 간격 1.5배·글자 간격 0.12배·단어 간격 0.16배·문단 간격 2배를 적용했습니다. 새로 잘린 글자 1곳."
+      },
+      "summary": {
+        "clipped": 1
+      },
+      "error": null
+    }
+  ],
   "issues": [
     {
       "id": "6fbc16af782e509e5e30",
@@ -160,11 +265,11 @@
           "data": null
         }
       ],
-      "stateId": "cdf34c76-5f16-4566-96b7-1b0c2069a302",
+      "stateId": "dd6905bb-6105-4863-8322-1bcfb0798f45",
       "url": "http://127.0.0.1:47832/fixtures/review-fixture.html",
       "viewport": "desktop",
       "stateLabel": "초기 화면",
-      "screenshot": "c69f61d2-c8d0-49d1-8c8e-51511bc5a5b5/cdf34c76-5f16-4566-96b7-1b0c2069a302.png",
+      "screenshot": "4fd916b2-75ff-4900-a603-099d9b128556/dd6905bb-6105-4863-8322-1bcfb0798f45.png",
       "bounds": {
         "x": 310,
         "y": 510.84375,
@@ -182,7 +287,7 @@
       "source": "axe-core",
       "history": [
         {
-          "at": "2026-10-27T06:45:08.575Z",
+          "at": "2026-10-27T07:03:11.841Z",
           "status": "open",
           "note": "자동 규칙 위반 발견"
         }
@@ -219,11 +324,11 @@
           }
         }
       ],
-      "stateId": "cdf34c76-5f16-4566-96b7-1b0c2069a302",
+      "stateId": "dd6905bb-6105-4863-8322-1bcfb0798f45",
       "url": "http://127.0.0.1:47832/fixtures/review-fixture.html",
       "viewport": "desktop",
       "stateLabel": "초기 화면",
-      "screenshot": "c69f61d2-c8d0-49d1-8c8e-51511bc5a5b5/cdf34c76-5f16-4566-96b7-1b0c2069a302.png",
+      "screenshot": "4fd916b2-75ff-4900-a603-099d9b128556/dd6905bb-6105-4863-8322-1bcfb0798f45.png",
       "bounds": {
         "x": 310,
         "y": 289.84375,
@@ -241,7 +346,7 @@
       "source": "axe-core",
       "history": [
         {
-          "at": "2026-10-27T06:45:08.575Z",
+          "at": "2026-10-27T07:03:11.841Z",
           "status": "open",
           "note": "자동 규칙 위반 발견"
         }
@@ -271,16 +376,16 @@
           "data": null
         }
       ],
-      "stateId": "cdf34c76-5f16-4566-96b7-1b0c2069a302",
+      "stateId": "dd6905bb-6105-4863-8322-1bcfb0798f45",
       "url": "http://127.0.0.1:47832/fixtures/review-fixture.html",
       "viewport": "desktop",
       "stateLabel": "초기 화면",
-      "screenshot": "c69f61d2-c8d0-49d1-8c8e-51511bc5a5b5/cdf34c76-5f16-4566-96b7-1b0c2069a302.png",
+      "screenshot": "4fd916b2-75ff-4900-a603-099d9b128556/dd6905bb-6105-4863-8322-1bcfb0798f45.png",
       "bounds": {
         "x": 0,
         "y": 0,
         "width": 1440,
-        "height": 712.84375,
+        "height": 820.84375,
         "page": true
       },
       "steps": [
@@ -293,7 +398,7 @@
       "source": "axe-core",
       "history": [
         {
-          "at": "2026-10-27T06:45:08.575Z",
+          "at": "2026-10-27T07:03:11.841Z",
           "status": "open",
           "note": "자동 규칙 위반 발견"
         }
@@ -347,11 +452,11 @@
           "data": null
         }
       ],
-      "stateId": "cdf34c76-5f16-4566-96b7-1b0c2069a302",
+      "stateId": "dd6905bb-6105-4863-8322-1bcfb0798f45",
       "url": "http://127.0.0.1:47832/fixtures/review-fixture.html",
       "viewport": "desktop",
       "stateLabel": "초기 화면",
-      "screenshot": "c69f61d2-c8d0-49d1-8c8e-51511bc5a5b5/cdf34c76-5f16-4566-96b7-1b0c2069a302.png",
+      "screenshot": "4fd916b2-75ff-4900-a603-099d9b128556/dd6905bb-6105-4863-8322-1bcfb0798f45.png",
       "bounds": {
         "x": 310,
         "y": 160,
@@ -369,7 +474,7 @@
       "source": "axe-core",
       "history": [
         {
-          "at": "2026-10-27T06:45:08.575Z",
+          "at": "2026-10-27T07:03:11.841Z",
           "status": "open",
           "note": "자동 규칙 위반 발견"
         }
@@ -429,11 +534,11 @@
           "data": null
         }
       ],
-      "stateId": "cdf34c76-5f16-4566-96b7-1b0c2069a302",
+      "stateId": "dd6905bb-6105-4863-8322-1bcfb0798f45",
       "url": "http://127.0.0.1:47832/fixtures/review-fixture.html",
       "viewport": "desktop",
       "stateLabel": "초기 화면",
-      "screenshot": "c69f61d2-c8d0-49d1-8c8e-51511bc5a5b5/cdf34c76-5f16-4566-96b7-1b0c2069a302.png",
+      "screenshot": "4fd916b2-75ff-4900-a603-099d9b128556/dd6905bb-6105-4863-8322-1bcfb0798f45.png",
       "bounds": {
         "x": 310,
         "y": 363.84375,
@@ -451,9 +556,197 @@
       "source": "axe-core",
       "history": [
         {
-          "at": "2026-10-27T06:45:08.575Z",
+          "at": "2026-10-27T07:03:11.841Z",
           "status": "open",
           "note": "자동 규칙 위반 발견"
+        }
+      ]
+    },
+    {
+      "id": "7cfcd7f8425ec7a2f7af",
+      "fingerprint": "7cfcd7f8425ec7a2f7af",
+      "ruleId": "pc-focus-visible",
+      "checkKind": "keyboard",
+      "title": "포커스 표시가 보이지 않을 수 있음",
+      "description": "키보드 조작 시 현재 초점을 볼 수 있는지 확인한다.",
+      "impact": "moderate",
+      "type": "review",
+      "workflow": "open",
+      "scIds": [
+        "2.4.7"
+      ],
+      "helpUrl": "https://www.w3.org/WAI/WCAG22/Understanding/focus-visible.html",
+      "selector": "main > section > button",
+      "html": "<button class=\"plain\" type=\"button\">더 보기</button>",
+      "explanation": "이 요소(더 보기)는 포커스를 받아도 테두리·그림자·색이 바뀌지 않았습니다. 화면에서 포커스 위치를 알 수 있는지 확인하세요.",
+      "checks": [],
+      "stateId": "96c6fc38-ee56-4bac-ad7f-875d305931e5",
+      "url": "http://127.0.0.1:47832/fixtures/review-fixture.html",
+      "viewport": "desktop",
+      "stateLabel": "키보드 Tab 이동",
+      "screenshot": "4fd916b2-75ff-4900-a603-099d9b128556/96c6fc38-ee56-4bac-ad7f-875d305931e5.png",
+      "bounds": {
+        "x": 310,
+        "y": 664.84375,
+        "width": 55.703125,
+        "height": 30,
+        "page": true
+      },
+      "steps": [
+        "페이지 열기",
+        "화면 1440×1000",
+        "Tab 키로 이동",
+        "해당 요소 확인"
+      ],
+      "owner": "",
+      "note": "",
+      "source": "pagecheck",
+      "history": [
+        {
+          "at": "2026-10-27T07:03:15.174Z",
+          "status": "open",
+          "note": "키보드·확대 자동 확인에서 발견, 사람 확인 필요"
+        }
+      ]
+    },
+    {
+      "id": "930c45ea6b9fae432c88",
+      "fingerprint": "930c45ea6b9fae432c88",
+      "ruleId": "pc-pointer-only",
+      "checkKind": "keyboard",
+      "title": "마우스로만 누를 수 있는 요소 후보",
+      "description": "포인터 경로 자체가 필수인 기능을 제외하고 모든 기능의 키보드 조작을 확인한다.",
+      "impact": "moderate",
+      "type": "review",
+      "workflow": "open",
+      "scIds": [
+        "2.1.1"
+      ],
+      "helpUrl": "https://www.w3.org/WAI/WCAG22/Understanding/keyboard.html",
+      "selector": "main > section > div:nth-of-type(1)",
+      "html": "<div class=\"card\" onclick=\"void 0\">상세 보기</div>",
+      "explanation": "이 요소(상세 보기)는 마우스를 올리면 손 모양 커서가 되지만 Tab으로 갈 수 없습니다. 클릭하면 기능이 실행된다면 키보드로도 쓸 수 있어야 합니다.",
+      "checks": [],
+      "stateId": "96c6fc38-ee56-4bac-ad7f-875d305931e5",
+      "url": "http://127.0.0.1:47832/fixtures/review-fixture.html",
+      "viewport": "desktop",
+      "stateLabel": "키보드 Tab 이동",
+      "screenshot": "4fd916b2-75ff-4900-a603-099d9b128556/96c6fc38-ee56-4bac-ad7f-875d305931e5.png",
+      "bounds": {
+        "x": 310,
+        "y": 627.84375,
+        "width": 820,
+        "height": 37,
+        "page": true
+      },
+      "steps": [
+        "페이지 열기",
+        "화면 1440×1000",
+        "Tab 키로 이동",
+        "해당 요소 확인"
+      ],
+      "owner": "",
+      "note": "",
+      "source": "pagecheck",
+      "history": [
+        {
+          "at": "2026-10-27T07:03:15.174Z",
+          "status": "open",
+          "note": "키보드·확대 자동 확인에서 발견, 사람 확인 필요"
+        }
+      ]
+    },
+    {
+      "id": "7d2ddf307751d8a1de68",
+      "fingerprint": "7d2ddf307751d8a1de68",
+      "ruleId": "pc-reflow-overflow",
+      "checkKind": "reflow",
+      "title": "320px 너비에서 화면 밖으로 나감",
+      "description": "가로쓰기 너비 320 CSS px 또는 세로쓰기 높이 256 CSS px에서 정보·기능 손실과 양방향 스크롤 예외를 확인한다.",
+      "impact": "moderate",
+      "type": "review",
+      "workflow": "open",
+      "scIds": [
+        "1.4.10"
+      ],
+      "helpUrl": "https://www.w3.org/WAI/WCAG22/Understanding/reflow.html",
+      "selector": "main > section > div:nth-of-type(3)",
+      "html": "<div class=\"wide\">신청 안내 표</div>",
+      "explanation": "이 요소(신청 안내 표)가 화면 오른쪽 밖으로 나가 가로 스크롤이 생깁니다(페이지 너비 640px / 화면 320px). 표·지도처럼 가로 배치가 꼭 필요한 내용인지 확인하세요.",
+      "checks": [],
+      "stateId": "e27d173d-d34a-4fc4-872b-c8303c1809fb",
+      "url": "http://127.0.0.1:47832/fixtures/review-fixture.html",
+      "viewport": "mobile",
+      "stateLabel": "320px 너비(리플로)",
+      "screenshot": "4fd916b2-75ff-4900-a603-099d9b128556/e27d173d-d34a-4fc4-872b-c8303c1809fb.png",
+      "bounds": {
+        "x": 40,
+        "y": 753.84375,
+        "width": 600,
+        "height": 21,
+        "page": true
+      },
+      "steps": [
+        "페이지 열기",
+        "화면 320×800",
+        "화면 너비 줄이기",
+        "해당 요소 확인"
+      ],
+      "owner": "",
+      "note": "",
+      "source": "pagecheck",
+      "history": [
+        {
+          "at": "2026-10-27T07:03:15.174Z",
+          "status": "open",
+          "note": "키보드·확대 자동 확인에서 발견, 사람 확인 필요"
+        }
+      ]
+    },
+    {
+      "id": "374307d5a7d430c2d51d",
+      "fingerprint": "374307d5a7d430c2d51d",
+      "ruleId": "pc-spacing-clip",
+      "checkKind": "spacing",
+      "title": "텍스트 간격을 넓히면 글자가 잘림",
+      "description": "줄 1.5배·문단 2배·글자 0.12배·단어 0.16배 간격 적용 후 정보·기능 손실을 확인한다.",
+      "impact": "moderate",
+      "type": "review",
+      "workflow": "open",
+      "scIds": [
+        "1.4.12"
+      ],
+      "helpUrl": "https://www.w3.org/WAI/WCAG22/Understanding/text-spacing.html",
+      "selector": "main > section > div:nth-of-type(2)",
+      "html": "<div class=\"clip\">신청 전에 꼭 읽어 주세요.</div>",
+      "explanation": "간격을 넓혔더니 이 요소(신청 전에 꼭 읽어 주세요.)의 글자가 상자 밖으로 넘쳐 잘립니다. 높이·너비를 고정하지 않았는지 확인하세요.",
+      "checks": [],
+      "stateId": "3de84130-6fc2-4b93-a26b-d263c75fcae1",
+      "url": "http://127.0.0.1:47832/fixtures/review-fixture.html",
+      "viewport": "desktop",
+      "stateLabel": "텍스트 간격 넓히기",
+      "screenshot": "4fd916b2-75ff-4900-a603-099d9b128556/3de84130-6fc2-4b93-a26b-d263c75fcae1.png",
+      "bounds": {
+        "x": 310,
+        "y": 782.28125,
+        "width": 600,
+        "height": 20,
+        "page": true
+      },
+      "steps": [
+        "페이지 열기",
+        "화면 1440×1000",
+        "텍스트 간격 넓히기 적용",
+        "해당 요소 확인"
+      ],
+      "owner": "",
+      "note": "",
+      "source": "pagecheck",
+      "history": [
+        {
+          "at": "2026-10-27T07:03:15.174Z",
+          "status": "open",
+          "note": "키보드·확대 자동 확인에서 발견, 사람 확인 필요"
         }
       ]
     }
@@ -461,15 +754,35 @@
   "reviews": {},
   "logs": [
     {
-      "at": "2026-10-27T06:45:07.541Z",
+      "at": "2026-10-27T07:03:10.808Z",
       "message": "브라우저 검사 시작"
     },
     {
-      "at": "2026-10-27T06:45:08.575Z",
+      "at": "2026-10-27T07:03:11.841Z",
       "message": "초기 화면 · PC 검사 완료"
     },
     {
-      "at": "2026-10-27T06:45:08.590Z",
+      "at": "2026-10-27T07:03:11.853Z",
+      "message": "키보드·확대 자동 확인 시작"
+    },
+    {
+      "at": "2026-10-27T07:03:15.174Z",
+      "message": "키보드 Tab 이동 확인 완료"
+    },
+    {
+      "at": "2026-10-27T07:03:15.174Z",
+      "message": "320px 너비(리플로) 확인 완료"
+    },
+    {
+      "at": "2026-10-27T07:03:15.174Z",
+      "message": "200% 확대(720px 너비) 확인 완료"
+    },
+    {
+      "at": "2026-10-27T07:03:15.174Z",
+      "message": "텍스트 간격 넓히기 확인 완료"
+    },
+    {
+      "at": "2026-10-27T07:03:15.174Z",
       "message": "검사 종료 · 자동 규칙 결과와 전체 기준 평가를 구분해 확인하세요."
     }
   ],
@@ -484,15 +797,15 @@
   "error": null,
   "summary": {
     "open": 5,
-    "review": 0,
+    "review": 4,
     "untested": 55,
     "critical": 5,
     "states": 1,
     "errors": 0,
     "assessed": 0,
     "decision": "수정·확인 필요",
-    "autoClear": 17,
-    "autoNone": 34,
+    "autoClear": 19,
+    "autoNone": 28,
     "naSuggested": 6
   },
   "coverage": [
@@ -506,6 +819,7 @@
         "꾸밈용 이미지는 alt=\"\"로 비어 있어 읽히지 않는지 봅니다.",
         "그래프·지도처럼 정보가 많은 이미지는 본문이나 표에 같은 내용이 있는지 봅니다."
       ],
+      "evidence": [],
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#non-text-content",
       "outcome": "fail",
       "auto": "issue",
@@ -521,6 +835,7 @@
         "소리만 있는 콘텐츠(팟캐스트 등)에 같은 내용의 글(대본)이 있는지 봅니다.",
         "소리 없는 영상에 같은 내용의 글 설명이나 음성이 있는지 봅니다."
       ],
+      "evidence": [],
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#audio-only-and-video-only-prerecorded",
       "outcome": "not-tested",
       "auto": "clear",
@@ -540,6 +855,7 @@
         "영상을 재생해 자막을 켤 수 있는지 봅니다.",
         "자막이 대사와 시간이 맞고, 효과음·음악 등 이해에 필요한 소리도 적혀 있는지 봅니다."
       ],
+      "evidence": [],
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#captions-prerecorded",
       "outcome": "not-tested",
       "auto": "clear",
@@ -558,6 +874,7 @@
       "how": [
         "영상에서 화면에만 나오는 중요한 정보(글자, 동작)가 음성 해설이나 별도의 글 설명으로 제공되는지 봅니다."
       ],
+      "evidence": [],
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#audio-description-or-media-alternative-prerecorded",
       "outcome": "not-tested",
       "auto": "not-covered",
@@ -576,6 +893,7 @@
       "how": [
         "실시간 방송·라이브 영상이 있다면 실시간 자막을 켤 수 있는지 봅니다. 라이브가 없으면 '비적용 확인'으로 기록합니다."
       ],
+      "evidence": [],
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#captions-live",
       "outcome": "not-tested",
       "auto": "not-covered",
@@ -594,6 +912,7 @@
       "how": [
         "영상에서 화면에만 나오는 중요한 정보가 음성 해설로 제공되는지 봅니다. 대사만으로 모두 이해되면 해설이 없어도 됩니다."
       ],
+      "evidence": [],
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#audio-description-prerecorded",
       "outcome": "not-tested",
       "auto": "not-covered",
@@ -614,6 +933,7 @@
         "목록처럼 보이는 것은 ul/ol, 표는 table과 th로 만들어졌는지 봅니다.",
         "입력 칸마다 이름표(label)가 연결돼 있는지 봅니다."
       ],
+      "evidence": [],
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#info-and-relationships",
       "outcome": "not-tested",
       "auto": "clear",
@@ -628,6 +948,7 @@
       "how": [
         "CSS를 끄거나(개발자 도구) 스크린리더로 읽었을 때 내용 순서가 화면에서 읽는 순서와 같은 뜻인지 봅니다."
       ],
+      "evidence": [],
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#meaningful-sequence",
       "outcome": "not-tested",
       "auto": "not-covered",
@@ -642,6 +963,7 @@
       "how": [
         "안내 문구가 '오른쪽 버튼을 누르세요', '빨간 항목은 필수'처럼 위치·색·모양만으로 설명하지 않는지 봅니다. 이름(예: '저장 버튼')도 함께 말해야 합니다."
       ],
+      "evidence": [],
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#sensory-characteristics",
       "outcome": "not-tested",
       "auto": "not-covered",
@@ -656,6 +978,7 @@
       "how": [
         "휴대폰이나 브라우저 모바일 모드에서 가로·세로를 바꿔 봅니다. 한 방향에서만 보이게 막혀 있으면 문제입니다."
       ],
+      "evidence": [],
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#orientation",
       "outcome": "not-tested",
       "auto": "not-covered",
@@ -670,6 +993,7 @@
       "how": [
         "이름·이메일·전화번호·주소처럼 본인 정보를 넣는 칸에 알맞은 autocomplete 값(name, email, tel 등)이 있는지 개발자 도구로 봅니다."
       ],
+      "evidence": [],
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#identify-input-purpose",
       "outcome": "not-tested",
       "auto": "clear",
@@ -685,6 +1009,7 @@
         "색으로만 구분하는 정보가 있는지 봅니다. 예: 본문 속 링크가 밑줄 없이 색만 다름, 오류 칸이 빨간 테두리뿐임.",
         "흑백으로 봐도(개발자 도구 렌더링 → 색각 이상 흉내) 구분되는지 봅니다."
       ],
+      "evidence": [],
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#use-of-color",
       "outcome": "not-tested",
       "auto": "clear",
@@ -699,6 +1024,7 @@
       "how": [
         "페이지를 열자마자 3초 넘게 소리가 나는지 봅니다. 그렇다면 멈추거나 소리를 줄이는 버튼이 있는지 봅니다."
       ],
+      "evidence": [],
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#audio-control",
       "outcome": "not-tested",
       "auto": "clear",
@@ -718,6 +1044,7 @@
         "자동 검사가 못 잰 글자를 봅니다: 이미지 위 글자, 그라데이션 배경, 마우스 올림·선택 상태의 글자.",
         "의심되면 색상 대비 측정 도구(예: WebAIM Contrast Checker)로 일반 글자 4.5:1, 큰 글자 3:1 이상인지 잽니다."
       ],
+      "evidence": [],
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#contrast-minimum",
       "outcome": "fail",
       "auto": "issue",
@@ -733,6 +1060,16 @@
         "브라우저 확대를 200%로 올립니다(Ctrl + +).",
         "글자가 잘리거나 겹치지 않고, 메뉴·버튼을 모두 쓸 수 있는지 봅니다."
       ],
+      "evidence": [
+        {
+          "checkId": "417b8ad2-9085-4fea-b954-072da4c940d9",
+          "kind": "zoom",
+          "label": "200% 확대(720px 너비)",
+          "url": "http://127.0.0.1:47832/fixtures/review-fixture.html",
+          "screenshot": "4fd916b2-75ff-4900-a603-099d9b128556/417b8ad2-9085-4fea-b954-072da4c940d9.png",
+          "text": "200% 확대(720px 너비): 가로 스크롤이 생기지 않았습니다. 새로 잘린 글자 0곳."
+        }
+      ],
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#resize-text",
       "outcome": "not-tested",
       "auto": "clear",
@@ -747,6 +1084,7 @@
       "how": [
         "글자가 그림으로 들어간 곳(배너, 버튼 이미지)이 있는지 봅니다. 로고나 꼭 그림이어야 하는 경우가 아니면 실제 글자로 바꿔야 합니다."
       ],
+      "evidence": [],
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#images-of-text",
       "outcome": "not-tested",
       "auto": "not-covered",
@@ -762,9 +1100,19 @@
         "브라우저 창 너비를 320px로 줄이거나 400%로 확대합니다.",
         "가로 스크롤 없이 내용을 모두 읽고 기능을 쓸 수 있는지 봅니다. 표·지도처럼 2차원이 꼭 필요한 부분은 예외입니다."
       ],
+      "evidence": [
+        {
+          "checkId": "e27d173d-d34a-4fc4-872b-c8303c1809fb",
+          "kind": "reflow",
+          "label": "320px 너비(리플로)",
+          "url": "http://127.0.0.1:47832/fixtures/review-fixture.html",
+          "screenshot": "4fd916b2-75ff-4900-a603-099d9b128556/e27d173d-d34a-4fc4-872b-c8303c1809fb.png",
+          "text": "320px 너비: 가로 스크롤이 생깁니다(페이지 너비 640px). 새로 잘린 글자 0곳."
+        }
+      ],
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#reflow",
-      "outcome": "not-tested",
-      "auto": "not-covered",
+      "outcome": "needs-review",
+      "auto": "issue",
       "suggest": null,
       "review": null
     },
@@ -777,6 +1125,7 @@
         "입력 칸 테두리, 체크박스, 버튼 경계, 아이콘, 포커스 표시가 주변 색과 3:1 이상으로 잘 보이는지 봅니다.",
         "그래프 선·막대처럼 이해에 필요한 그래픽도 봅니다."
       ],
+      "evidence": [],
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#non-text-contrast",
       "outcome": "not-tested",
       "auto": "not-covered",
@@ -792,9 +1141,19 @@
         "텍스트 간격 북마클릿(예: 'Text Spacing Bookmarklet')으로 줄·글자·단어 간격을 넓힙니다.",
         "글자가 잘리거나 겹쳐서 안 보이는 곳이 없는지 봅니다."
       ],
+      "evidence": [
+        {
+          "checkId": "3de84130-6fc2-4b93-a26b-d263c75fcae1",
+          "kind": "spacing",
+          "label": "텍스트 간격 넓히기",
+          "url": "http://127.0.0.1:47832/fixtures/review-fixture.html",
+          "screenshot": "4fd916b2-75ff-4900-a603-099d9b128556/3de84130-6fc2-4b93-a26b-d263c75fcae1.png",
+          "text": "줄 간격 1.5배·글자 간격 0.12배·단어 간격 0.16배·문단 간격 2배를 적용했습니다. 새로 잘린 글자 1곳."
+        }
+      ],
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#text-spacing",
-      "outcome": "not-tested",
-      "auto": "clear",
+      "outcome": "needs-review",
+      "auto": "issue",
       "suggest": null,
       "review": null
     },
@@ -807,6 +1166,7 @@
         "마우스를 올리거나 키보드로 이동했을 때 나타나는 말풍선·메뉴를 찾습니다.",
         "Esc로 닫히는지, 마우스를 그 내용 위로 옮겨도 사라지지 않는지, 직접 닫기 전까지 유지되는지 봅니다."
       ],
+      "evidence": [],
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#content-on-hover-or-focus",
       "outcome": "not-tested",
       "auto": "not-covered",
@@ -822,9 +1182,19 @@
         "마우스를 쓰지 않고 Tab·Shift+Tab·Enter·Space·방향키로 페이지의 모든 기능을 써 봅니다.",
         "메뉴, 팝업, 슬라이드, 파일 올리기 등 마우스로 되는 것이 키보드로도 되는지 봅니다."
       ],
+      "evidence": [
+        {
+          "checkId": "96c6fc38-ee56-4bac-ad7f-875d305931e5",
+          "kind": "keyboard",
+          "label": "키보드 Tab 이동",
+          "url": "http://127.0.0.1:47832/fixtures/review-fixture.html",
+          "screenshot": "4fd916b2-75ff-4900-a603-099d9b128556/96c6fc38-ee56-4bac-ad7f-875d305931e5.png",
+          "text": "Tab으로 5곳에 이동했습니다. 마우스로만 누를 수 있는 요소 후보 1개."
+        }
+      ],
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#keyboard",
-      "outcome": "not-tested",
-      "auto": "clear",
+      "outcome": "needs-review",
+      "auto": "issue",
       "suggest": null,
       "review": null
     },
@@ -837,9 +1207,19 @@
         "Tab으로 페이지 끝까지 이동하면서 빠져나올 수 없는 곳(팝업, 지도, 동영상 플레이어, 편집기)이 없는지 봅니다.",
         "특별한 키로만 나올 수 있다면 그 방법이 안내돼 있는지 봅니다."
       ],
+      "evidence": [
+        {
+          "checkId": "96c6fc38-ee56-4bac-ad7f-875d305931e5",
+          "kind": "keyboard",
+          "label": "키보드 Tab 이동",
+          "url": "http://127.0.0.1:47832/fixtures/review-fixture.html",
+          "screenshot": "4fd916b2-75ff-4900-a603-099d9b128556/96c6fc38-ee56-4bac-ad7f-875d305931e5.png",
+          "text": "Tab을 계속 눌러 페이지 끝까지 갔습니다. 갇힌 곳은 발견되지 않았습니다."
+        }
+      ],
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#no-keyboard-trap",
       "outcome": "not-tested",
-      "auto": "not-covered",
+      "auto": "clear",
       "suggest": null,
       "review": null
     },
@@ -852,6 +1232,7 @@
         "입력 칸이 아닌 곳에서 영문자·숫자 키를 하나씩 눌러 봅니다. 아무 기능이 실행되지 않으면 해당 없음입니다.",
         "실행된다면 끄거나 바꿀 수 있는지, 그 요소에 포커스가 있을 때만 동작하는지 봅니다."
       ],
+      "evidence": [],
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#character-key-shortcuts",
       "outcome": "not-tested",
       "auto": "not-covered",
@@ -867,6 +1248,7 @@
         "로그인 시간 만료, 자동으로 넘어가는 화면 등 시간제한이 있는지 봅니다.",
         "있다면 끝나기 전에 알리고 연장할 수 있는지(20초 이상 여유) 봅니다."
       ],
+      "evidence": [],
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#timing-adjustable",
       "outcome": "not-tested",
       "auto": "clear",
@@ -882,6 +1264,7 @@
         "자동으로 넘어가는 배너·슬라이드, 움직이는 글자, 자동 갱신 영역을 찾습니다.",
         "5초 넘게 움직이면 일시정지·정지 버튼이 있는지 봅니다."
       ],
+      "evidence": [],
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#pause-stop-hide",
       "outcome": "not-tested",
       "auto": "clear",
@@ -896,6 +1279,7 @@
       "how": [
         "1초에 3번 넘게 번쩍이는 영상·애니메이션이 있는지 봅니다. 없으면 통과로 기록합니다."
       ],
+      "evidence": [],
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#three-flashes-or-below-threshold",
       "outcome": "not-tested",
       "auto": "not-covered",
@@ -911,6 +1295,16 @@
         "페이지를 열고 Tab을 처음 눌렀을 때 '본문 바로가기' 같은 건너뛰기 링크가 나오는지, 눌렀을 때 본문으로 이동하는지 봅니다.",
         "또는 제목·랜드마크(header, nav, main)로 건너뛸 수 있는지 봅니다."
       ],
+      "evidence": [
+        {
+          "checkId": "96c6fc38-ee56-4bac-ad7f-875d305931e5",
+          "kind": "keyboard",
+          "label": "키보드 Tab 이동",
+          "url": "http://127.0.0.1:47832/fixtures/review-fixture.html",
+          "screenshot": "4fd916b2-75ff-4900-a603-099d9b128556/96c6fc38-ee56-4bac-ad7f-875d305931e5.png",
+          "text": "첫 Tab 위치에 건너뛰기 링크가 없습니다(‘input’). 랜드마크 main 1개·nav 0개, 제목 1개."
+        }
+      ],
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#bypass-blocks",
       "outcome": "not-tested",
       "auto": "clear",
@@ -925,6 +1319,7 @@
       "how": [
         "브라우저 탭에 보이는 페이지 제목이 이 페이지가 무엇인지 알려 주는지 봅니다. 예: '회원가입 | 서비스명'"
       ],
+      "evidence": [],
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#page-titled",
       "outcome": "not-tested",
       "auto": "clear",
@@ -940,9 +1335,19 @@
         "Tab으로 이동하는 순서가 화면을 읽는 순서와 맞는지 봅니다.",
         "팝업을 열면 포커스가 팝업 안으로 가고, 닫으면 원래 버튼으로 돌아오는지 봅니다."
       ],
+      "evidence": [
+        {
+          "checkId": "96c6fc38-ee56-4bac-ad7f-875d305931e5",
+          "kind": "keyboard",
+          "label": "키보드 Tab 이동",
+          "url": "http://127.0.0.1:47832/fixtures/review-fixture.html",
+          "screenshot": "4fd916b2-75ff-4900-a603-099d9b128556/96c6fc38-ee56-4bac-ad7f-875d305931e5.png",
+          "text": "포커스 순서를 번호로 표시한 화면을 남겼습니다. 번호가 읽는 순서와 맞는지 보세요."
+        }
+      ],
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#focus-order",
       "outcome": "not-tested",
-      "auto": "not-covered",
+      "auto": "clear",
       "suggest": null,
       "review": null
     },
@@ -955,6 +1360,7 @@
         "'더보기', '여기'처럼 링크 글자만으로 목적을 알 수 없는 링크를 찾습니다.",
         "같은 문장·목록 항목·표 칸 안에서 목적을 알 수 있는지 봅니다. 안 되면 문구를 고칩니다."
       ],
+      "evidence": [],
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#link-purpose-in-context",
       "outcome": "not-tested",
       "auto": "clear",
@@ -970,6 +1376,7 @@
         "이 페이지를 찾아갈 수 있는 방법이 두 가지 이상인지 봅니다. 예: 메뉴 + 검색, 메뉴 + 사이트맵.",
         "결제 단계처럼 과정 중간의 페이지는 예외입니다."
       ],
+      "evidence": [],
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#multiple-ways",
       "outcome": "not-tested",
       "auto": "not-covered",
@@ -984,6 +1391,7 @@
       "how": [
         "제목과 입력 칸 이름표가 내용·목적을 알 수 있게 쓰였는지 봅니다. 예: '정보' 대신 '배송지 정보'"
       ],
+      "evidence": [],
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#headings-and-labels",
       "outcome": "not-tested",
       "auto": "not-covered",
@@ -998,9 +1406,19 @@
       "how": [
         "Tab으로 이동할 때 지금 어디에 있는지 테두리·밑줄 등으로 항상 보이는지 봅니다. 포커스 표시가 사라지는 요소가 없는지 끝까지 확인합니다."
       ],
+      "evidence": [
+        {
+          "checkId": "96c6fc38-ee56-4bac-ad7f-875d305931e5",
+          "kind": "keyboard",
+          "label": "키보드 Tab 이동",
+          "url": "http://127.0.0.1:47832/fixtures/review-fixture.html",
+          "screenshot": "4fd916b2-75ff-4900-a603-099d9b128556/96c6fc38-ee56-4bac-ad7f-875d305931e5.png",
+          "text": "포커스 표시가 바뀌지 않은 요소 1개, 화면 밖 포커스 0개."
+        }
+      ],
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#focus-visible",
-      "outcome": "not-tested",
-      "auto": "not-covered",
+      "outcome": "needs-review",
+      "auto": "issue",
       "suggest": null,
       "review": null
     },
@@ -1012,9 +1430,19 @@
       "how": [
         "Tab으로 이동할 때 고정 헤더, 쿠키 안내, 채팅 버튼 등에 포커스된 요소가 완전히 가려지는 곳이 없는지 봅니다."
       ],
+      "evidence": [
+        {
+          "checkId": "96c6fc38-ee56-4bac-ad7f-875d305931e5",
+          "kind": "keyboard",
+          "label": "키보드 Tab 이동",
+          "url": "http://127.0.0.1:47832/fixtures/review-fixture.html",
+          "screenshot": "4fd916b2-75ff-4900-a603-099d9b128556/96c6fc38-ee56-4bac-ad7f-875d305931e5.png",
+          "text": "다른 요소에 완전히 가려진 포커스 0개."
+        }
+      ],
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#focus-not-obscured-minimum",
       "outcome": "not-tested",
-      "auto": "not-covered",
+      "auto": "clear",
       "suggest": null,
       "review": null
     },
@@ -1027,6 +1455,7 @@
         "두 손가락 확대, 쓸어넘기기, 그리기 같은 동작이 필요한 기능을 찾습니다.",
         "있다면 버튼 한 번 누르기 같은 대안이 있는지 봅니다(예: 슬라이드의 이전·다음 버튼)."
       ],
+      "evidence": [],
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#pointer-gestures",
       "outcome": "not-tested",
       "auto": "not-covered",
@@ -1041,6 +1470,7 @@
       "how": [
         "버튼을 누른 채로 버튼 밖으로 끌어 나가서 손을 뗍니다. 이때 기능이 실행되지 않아야 합니다."
       ],
+      "evidence": [],
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#pointer-cancellation",
       "outcome": "not-tested",
       "auto": "not-covered",
@@ -1055,6 +1485,7 @@
       "how": [
         "화면에 보이는 버튼·링크 글자가 접근 가능한 이름(개발자 도구 → 접근성 탭)에 그대로 들어 있는지 봅니다. 예: 보이는 글자 '검색' → 이름 '검색하기'는 통과, '찾기'는 문제."
       ],
+      "evidence": [],
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#label-in-name",
       "outcome": "not-tested",
       "auto": "not-covered",
@@ -1070,6 +1501,7 @@
         "기기를 흔들거나 기울이면 실행되는 기능이 있는지 봅니다. 없으면 해당 없음입니다.",
         "있다면 화면의 버튼으로도 할 수 있고, 동작 인식을 끌 수 있는지 봅니다."
       ],
+      "evidence": [],
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#motion-actuation",
       "outcome": "not-tested",
       "auto": "not-covered",
@@ -1085,6 +1517,7 @@
         "끌어서 옮기는 기능(순서 바꾸기, 슬라이더, 지도 이동)을 찾습니다.",
         "있다면 클릭·탭만으로 같은 일을 할 수 있는지 봅니다(예: 위·아래 버튼, 값 입력)."
       ],
+      "evidence": [],
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#dragging-movements",
       "outcome": "not-tested",
       "auto": "not-covered",
@@ -1100,6 +1533,7 @@
         "작은 아이콘 버튼·닫기 버튼이 24×24px 이상인지, 작다면 옆 버튼과 충분히 떨어져 있는지 개발자 도구로 봅니다.",
         "문장 안의 링크는 예외입니다."
       ],
+      "evidence": [],
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#target-size-minimum",
       "outcome": "not-tested",
       "auto": "clear",
@@ -1114,6 +1548,7 @@
       "how": [
         "html 태그에 lang=\"ko\"처럼 페이지의 주 언어가 맞게 지정돼 있는지 봅니다."
       ],
+      "evidence": [],
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#language-of-page",
       "outcome": "fail",
       "auto": "issue",
@@ -1129,6 +1564,7 @@
         "한국어 페이지 안에 영어 문단 등 다른 언어로 된 부분이 있는지 봅니다.",
         "있다면 그 부분에 lang=\"en\" 등이 붙어 있는지 봅니다. 고유명사·흔한 외래어는 예외입니다."
       ],
+      "evidence": [],
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#language-of-parts",
       "outcome": "not-tested",
       "auto": "clear",
@@ -1143,9 +1579,19 @@
       "how": [
         "Tab으로 각 요소에 포커스만 옮겼을 때 새 창이 열리거나 페이지가 바뀌거나 제출되는 일이 없는지 봅니다."
       ],
+      "evidence": [
+        {
+          "checkId": "96c6fc38-ee56-4bac-ad7f-875d305931e5",
+          "kind": "keyboard",
+          "label": "키보드 Tab 이동",
+          "url": "http://127.0.0.1:47832/fixtures/review-fixture.html",
+          "screenshot": "4fd916b2-75ff-4900-a603-099d9b128556/96c6fc38-ee56-4bac-ad7f-875d305931e5.png",
+          "text": "Tab 이동 중 주소가 바뀌거나 새 창이 열리지 않았습니다."
+        }
+      ],
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#on-focus",
       "outcome": "not-tested",
-      "auto": "not-covered",
+      "auto": "clear",
       "suggest": null,
       "review": null
     },
@@ -1158,6 +1604,7 @@
         "선택 상자·체크박스·입력 칸 값을 바꾸기만 했을 때 페이지 이동·제출이 일어나는지 봅니다.",
         "일어난다면 미리 안내 문구가 있는지 봅니다."
       ],
+      "evidence": [],
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#on-input",
       "outcome": "not-tested",
       "auto": "not-covered",
@@ -1172,6 +1619,7 @@
       "how": [
         "같은 사이트의 다른 페이지 2~3개를 열어 메뉴·검색 등 반복되는 탐색의 순서가 같은지 비교합니다."
       ],
+      "evidence": [],
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#consistent-navigation",
       "outcome": "not-tested",
       "auto": "not-covered",
@@ -1186,6 +1634,7 @@
       "how": [
         "다른 페이지에서 같은 기능(검색, 장바구니, 닫기 등)의 이름과 아이콘이 같은지 비교합니다."
       ],
+      "evidence": [],
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#consistent-identification",
       "outcome": "not-tested",
       "auto": "not-covered",
@@ -1200,6 +1649,7 @@
       "how": [
         "고객센터·문의·도움말 링크가 여러 페이지에 있다면 페이지마다 같은 위치(순서)에 있는지 비교합니다. 도움말이 없으면 해당 없음입니다."
       ],
+      "evidence": [],
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#consistent-help",
       "outcome": "not-tested",
       "auto": "not-covered",
@@ -1215,6 +1665,7 @@
         "필수 칸을 비우거나 잘못된 값을 넣고 제출합니다.",
         "어느 칸이 왜 잘못됐는지 글로 알려 주는지 봅니다(색만 바뀌면 문제)."
       ],
+      "evidence": [],
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#error-identification",
       "outcome": "not-tested",
       "auto": "not-covered",
@@ -1229,6 +1680,7 @@
       "how": [
         "입력 칸마다 눈에 보이는 이름표가 있고, 형식(예: 숫자만, 8자 이상)이나 필수 여부가 안내되는지 봅니다. 입력하면 사라지는 placeholder만 있으면 문제입니다."
       ],
+      "evidence": [],
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#labels-or-instructions",
       "outcome": "not-tested",
       "auto": "clear",
@@ -1243,6 +1695,7 @@
       "how": [
         "잘못된 값을 넣었을 때 고치는 방법을 알려 주는지 봅니다. 예: '날짜는 2026-01-31 형식으로 입력하세요'"
       ],
+      "evidence": [],
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#error-suggestion",
       "outcome": "not-tested",
       "auto": "not-covered",
@@ -1258,6 +1711,7 @@
         "결제·계약·개인정보 수정·삭제처럼 되돌리기 어려운 제출이 있는지 봅니다.",
         "있다면 제출 전 확인 화면, 취소 가능 기간, 입력 내용 검사 중 하나가 있는지 봅니다."
       ],
+      "evidence": [],
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#error-prevention-legal-financial-data",
       "outcome": "not-tested",
       "auto": "not-covered",
@@ -1273,6 +1727,7 @@
         "여러 단계로 된 입력 과정에서 앞에서 넣은 정보(주소 등)를 다시 입력하게 하는지 봅니다.",
         "그렇다면 자동으로 채워지거나 고를 수 있는지 봅니다(예: '배송지와 같음')."
       ],
+      "evidence": [],
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#redundant-entry",
       "outcome": "not-tested",
       "auto": "not-covered",
@@ -1288,6 +1743,7 @@
         "로그인·본인 확인에서 기억하거나 계산해야 하는 단계(비밀번호 외 퍼즐, 문자 따라 쓰기 등)가 있는지 봅니다.",
         "비밀번호 칸은 붙여넣기와 비밀번호 관리자 자동 입력이 되는지 봅니다."
       ],
+      "evidence": [],
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#accessible-authentication-minimum",
       "outcome": "not-tested",
       "auto": "not-covered",
@@ -1303,6 +1759,7 @@
         "직접 만든 버튼·탭·토글·드롭다운을 찾아 개발자 도구 접근성 탭에서 이름·역할·상태(예: 펼침/접힘, 선택됨)가 맞는지 봅니다.",
         "상태를 바꿨을 때 그 값도 바뀌는지 봅니다(예: aria-expanded true/false)."
       ],
+      "evidence": [],
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#name-role-value",
       "outcome": "fail",
       "auto": "issue",
@@ -1318,6 +1775,7 @@
         "'저장되었습니다', '검색 결과 12건', '장바구니에 담김'처럼 포커스 이동 없이 나타나는 메시지를 찾습니다.",
         "스크린리더로 읽히는지, 또는 role=\"status\"/aria-live가 붙어 있는지 봅니다."
       ],
+      "evidence": [],
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#status-messages",
       "outcome": "not-tested",
       "auto": "not-covered",
