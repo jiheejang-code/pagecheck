@@ -48,3 +48,7 @@
 .btn:disabled{opacity:.5;cursor:not-allowed}
 .row-actions{display:flex;gap:2px;justify-content:flex-end}
 .danger-note{background:#fbeeee;color:#7a2a2b;margin:14px 0 0}
+.export-options{display:grid;gap:12px;margin-top:12px}
+.export-option{border:1px solid var(--line);border-radius:8px;padding:14px 16px}
+.export-option h3{font-size:14px;margin:0 0 6px;display:flex;align-items:center;gap:8px}
+.export-option p{font-size:12px;margin:0 0 10px;color:var(--ink)}
