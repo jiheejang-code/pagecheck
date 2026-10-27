@@ -1,7 +1,7 @@
 {
-  "id": "9f5b5ea7-b51e-4fa5-8358-ce88e3fee7be",
-  "createdAt": "2026-10-26T06:17:55.609Z",
-  "updatedAt": "2026-10-26T06:17:57.237Z",
+  "id": "80d2eb31-d006-482f-b549-e13e936b8e1d",
+  "createdAt": "2026-10-27T04:01:03.810Z",
+  "updatedAt": "2026-10-27T04:01:04.930Z",
   "status": "completed",
   "request": {
     "name": "서비스 신청 페이지 · 예시",
@@ -21,13 +21,13 @@
   },
   "states": [
     {
-      "id": "e3424d10-b2ab-4fde-90cf-c4dd23b94261",
+      "id": "0d5326a5-53ab-4c65-8ee3-741f348b0693",
       "url": "http://127.0.0.1:47832/fixtures/review-fixture.html",
       "viewport": "desktop",
       "step": 0,
       "label": "초기 화면",
       "status": "completed",
-      "screenshot": "9f5b5ea7-b51e-4fa5-8358-ce88e3fee7be/e3424d10-b2ab-4fde-90cf-c4dd23b94261.png",
+      "screenshot": "80d2eb31-d006-482f-b549-e13e936b8e1d/0d5326a5-53ab-4c65-8ee3-741f348b0693.png",
       "findings": 5,
       "title": "서비스 신청 — 검사 예시",
       "passedRuleIds": [
@@ -113,11 +113,11 @@
       "selector": ".blank",
       "html": "<button type=\"button\" class=\"blank\"></button>",
       "explanation": "Fix any of the following:\n  Element does not have inner text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
-      "stateId": "e3424d10-b2ab-4fde-90cf-c4dd23b94261",
+      "stateId": "0d5326a5-53ab-4c65-8ee3-741f348b0693",
       "url": "http://127.0.0.1:47832/fixtures/review-fixture.html",
       "viewport": "desktop",
       "stateLabel": "초기 화면",
-      "screenshot": "9f5b5ea7-b51e-4fa5-8358-ce88e3fee7be/e3424d10-b2ab-4fde-90cf-c4dd23b94261.png",
+      "screenshot": "80d2eb31-d006-482f-b549-e13e936b8e1d/0d5326a5-53ab-4c65-8ee3-741f348b0693.png",
       "bounds": {
         "x": 310,
         "y": 510.84375,
@@ -134,7 +134,7 @@
       "source": "axe-core",
       "history": [
         {
-          "at": "2026-10-26T06:17:57.081Z",
+          "at": "2026-10-27T04:01:04.814Z",
           "status": "open",
           "note": "자동 규칙 위반 발견"
         }
@@ -156,11 +156,11 @@
       "selector": ".low",
       "html": "<p class=\"low\">본 페이지는 검수 기능 확인용 예시입니다.</p>",
       "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.7 (foreground color: #c6c6c6, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
-      "stateId": "e3424d10-b2ab-4fde-90cf-c4dd23b94261",
+      "stateId": "0d5326a5-53ab-4c65-8ee3-741f348b0693",
       "url": "http://127.0.0.1:47832/fixtures/review-fixture.html",
       "viewport": "desktop",
       "stateLabel": "초기 화면",
-      "screenshot": "9f5b5ea7-b51e-4fa5-8358-ce88e3fee7be/e3424d10-b2ab-4fde-90cf-c4dd23b94261.png",
+      "screenshot": "80d2eb31-d006-482f-b549-e13e936b8e1d/0d5326a5-53ab-4c65-8ee3-741f348b0693.png",
       "bounds": {
         "x": 310,
         "y": 289.84375,
@@ -177,7 +177,7 @@
       "source": "axe-core",
       "history": [
         {
-          "at": "2026-10-26T06:17:57.081Z",
+          "at": "2026-10-27T04:01:04.814Z",
           "status": "open",
           "note": "자동 규칙 위반 발견"
         }
@@ -199,11 +199,11 @@
       "selector": "html",
       "html": "<html>",
       "explanation": "Fix any of the following:\n  The <html> element does not have a lang attribute",
-      "stateId": "e3424d10-b2ab-4fde-90cf-c4dd23b94261",
+      "stateId": "0d5326a5-53ab-4c65-8ee3-741f348b0693",
       "url": "http://127.0.0.1:47832/fixtures/review-fixture.html",
       "viewport": "desktop",
       "stateLabel": "초기 화면",
-      "screenshot": "9f5b5ea7-b51e-4fa5-8358-ce88e3fee7be/e3424d10-b2ab-4fde-90cf-c4dd23b94261.png",
+      "screenshot": "80d2eb31-d006-482f-b549-e13e936b8e1d/0d5326a5-53ab-4c65-8ee3-741f348b0693.png",
       "bounds": {
         "x": 0,
         "y": 0,
@@ -220,7 +220,7 @@
       "source": "axe-core",
       "history": [
         {
-          "at": "2026-10-26T06:17:57.081Z",
+          "at": "2026-10-27T04:01:04.815Z",
           "status": "open",
           "note": "자동 규칙 위반 발견"
         }
@@ -242,11 +242,11 @@
       "selector": "img",
       "html": "<img src=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48'%3E%3Crect width='48' height='48' rx='10' fill='%231c6c51'/%3E%3C/svg%3E\">",
       "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
-      "stateId": "e3424d10-b2ab-4fde-90cf-c4dd23b94261",
+      "stateId": "0d5326a5-53ab-4c65-8ee3-741f348b0693",
       "url": "http://127.0.0.1:47832/fixtures/review-fixture.html",
       "viewport": "desktop",
       "stateLabel": "초기 화면",
-      "screenshot": "9f5b5ea7-b51e-4fa5-8358-ce88e3fee7be/e3424d10-b2ab-4fde-90cf-c4dd23b94261.png",
+      "screenshot": "80d2eb31-d006-482f-b549-e13e936b8e1d/0d5326a5-53ab-4c65-8ee3-741f348b0693.png",
       "bounds": {
         "x": 310,
         "y": 160,
@@ -263,7 +263,7 @@
       "source": "axe-core",
       "history": [
         {
-          "at": "2026-10-26T06:17:57.081Z",
+          "at": "2026-10-27T04:01:04.815Z",
           "status": "open",
           "note": "자동 규칙 위반 발견"
         }
@@ -285,11 +285,11 @@
       "selector": "input:nth-child(2)",
       "html": "<input style=\"\">",
       "explanation": "Fix any of the following:\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element has no placeholder attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
-      "stateId": "e3424d10-b2ab-4fde-90cf-c4dd23b94261",
+      "stateId": "0d5326a5-53ab-4c65-8ee3-741f348b0693",
       "url": "http://127.0.0.1:47832/fixtures/review-fixture.html",
       "viewport": "desktop",
       "stateLabel": "초기 화면",
-      "screenshot": "9f5b5ea7-b51e-4fa5-8358-ce88e3fee7be/e3424d10-b2ab-4fde-90cf-c4dd23b94261.png",
+      "screenshot": "80d2eb31-d006-482f-b549-e13e936b8e1d/0d5326a5-53ab-4c65-8ee3-741f348b0693.png",
       "bounds": {
         "x": 310,
         "y": 363.84375,
@@ -306,7 +306,7 @@
       "source": "axe-core",
       "history": [
         {
-          "at": "2026-10-26T06:17:57.081Z",
+          "at": "2026-10-27T04:01:04.815Z",
           "status": "open",
           "note": "자동 규칙 위반 발견"
         }
@@ -316,15 +316,15 @@
   "reviews": {},
   "logs": [
     {
-      "at": "2026-10-26T06:17:55.609Z",
+      "at": "2026-10-27T04:01:03.811Z",
       "message": "브라우저 검사 시작"
     },
     {
-      "at": "2026-10-26T06:17:57.081Z",
+      "at": "2026-10-27T04:01:04.815Z",
       "message": "초기 화면 · PC 검사 완료"
     },
     {
-      "at": "2026-10-26T06:17:57.097Z",
+      "at": "2026-10-27T04:01:04.827Z",
       "message": "검사 종료 · 자동 규칙 결과와 전체 기준 평가를 구분해 확인하세요."
     }
   ],
@@ -345,7 +345,9 @@
     "states": 1,
     "errors": 0,
     "assessed": 0,
-    "decision": "수정·확인 필요"
+    "decision": "수정·확인 필요",
+    "autoClear": 17,
+    "autoNone": 34
   },
   "coverage": [
     {
@@ -355,6 +357,7 @@
       "focus": "이미지·아이콘·캔버스의 목적과 동등한 대체 정보를 확인한다.",
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#non-text-content",
       "outcome": "fail",
+      "auto": "issue",
       "review": null
     },
     {
@@ -364,6 +367,7 @@
       "focus": "오디오 전용과 비디오 전용 매체 각각에 요구되는 대체 수단을 확인한다.",
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#audio-only-and-video-only-prerecorded",
       "outcome": "not-tested",
+      "auto": "clear",
       "review": null
     },
     {
@@ -373,6 +377,7 @@
       "focus": "대사뿐 아니라 이해에 필요한 비언어 음성정보까지 동기화된 자막으로 제공하는지 확인한다.",
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#captions-prerecorded",
       "outcome": "not-tested",
+      "auto": "clear",
       "review": null
     },
     {
@@ -382,6 +387,7 @@
       "focus": "동기화 매체의 시각정보에 음성해설 또는 요구되는 매체 대체수단이 있는지 확인한다.",
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#audio-description-or-media-alternative-prerecorded",
       "outcome": "not-tested",
+      "auto": "not-covered",
       "review": null
     },
     {
@@ -391,6 +397,7 @@
       "focus": "실시간 동기화 매체의 오디오에 자막을 제공하는지 확인한다.",
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#captions-live",
       "outcome": "not-tested",
+      "auto": "not-covered",
       "review": null
     },
     {
@@ -400,6 +407,7 @@
       "focus": "동기화 매체의 중요한 시각정보를 오디오로 전달하는지 확인한다.",
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#audio-description-prerecorded",
       "outcome": "not-tested",
+      "auto": "not-covered",
       "review": null
     },
     {
@@ -409,6 +417,7 @@
       "focus": "시각적으로 표현한 제목·표·폼·목록의 관계가 프로그램으로 파악되거나 텍스트로 제공되는지 확인한다.",
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#info-and-relationships",
       "outcome": "not-tested",
+      "auto": "clear",
       "review": null
     },
     {
@@ -418,6 +427,7 @@
       "focus": "의미에 영향을 주는 읽기 순서가 프로그램으로 파악되는지 확인한다.",
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#meaningful-sequence",
       "outcome": "not-tested",
+      "auto": "not-covered",
       "review": null
     },
     {
@@ -427,6 +437,7 @@
       "focus": "사용 지시가 모양·색·위치·소리 등의 감각 특성에만 의존하는지 확인한다.",
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#sensory-characteristics",
       "outcome": "not-tested",
+      "auto": "not-covered",
       "review": null
     },
     {
@@ -436,6 +447,7 @@
       "focus": "필수적인 경우를 제외하고 가로·세로 중 한 방향으로 표시·조작을 제한하는지 확인한다.",
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#orientation",
       "outcome": "not-tested",
+      "auto": "not-covered",
       "review": null
     },
     {
@@ -445,6 +457,7 @@
       "focus": "사용자 정보 입력 필드의 목적을 표준 의미로 프로그램이 식별할 수 있는지 확인한다.",
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#identify-input-purpose",
       "outcome": "not-tested",
+      "auto": "clear",
       "review": null
     },
     {
@@ -454,6 +467,7 @@
       "focus": "정보·동작·구별을 색만으로 전달하는지 확인한다.",
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#use-of-color",
       "outcome": "not-tested",
+      "auto": "clear",
       "review": null
     },
     {
@@ -463,6 +477,7 @@
       "focus": "자동 오디오가 3초를 넘으면 정지·일시정지 또는 독립적인 볼륨 제어를 확인한다.",
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#audio-control",
       "outcome": "not-tested",
+      "auto": "clear",
       "review": null
     },
     {
@@ -472,6 +487,7 @@
       "focus": "일반 텍스트 4.5:1, 큰 텍스트 3:1을 검사하고 예외와 글자 크기 정의를 확인한다.",
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#contrast-minimum",
       "outcome": "fail",
+      "auto": "issue",
       "review": null
     },
     {
@@ -481,6 +497,7 @@
       "focus": "보조기술 없이 200%까지 텍스트를 확대해 정보·기능 손실을 확인한다.",
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#resize-text",
       "outcome": "not-tested",
+      "auto": "clear",
       "review": null
     },
     {
@@ -490,6 +507,7 @@
       "focus": "실제 텍스트로 표현 가능한 내용을 이미지로만 제공하는지, 필수성·사용자 조정 예외를 확인한다.",
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#images-of-text",
       "outcome": "not-tested",
+      "auto": "not-covered",
       "review": null
     },
     {
@@ -499,6 +517,7 @@
       "focus": "가로쓰기 너비 320 CSS px 또는 세로쓰기 높이 256 CSS px에서 정보·기능 손실과 양방향 스크롤 예외를 확인한다.",
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#reflow",
       "outcome": "not-tested",
+      "auto": "not-covered",
       "review": null
     },
     {
@@ -508,6 +527,7 @@
       "focus": "UI 식별과 필수 그래픽의 관련 시각정보가 인접 색과 3:1 대비인지 예외와 함께 확인한다.",
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#non-text-contrast",
       "outcome": "not-tested",
+      "auto": "not-covered",
       "review": null
     },
     {
@@ -517,6 +537,7 @@
       "focus": "줄 1.5배·문단 2배·글자 0.12배·단어 0.16배 간격 적용 후 정보·기능 손실을 확인한다.",
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#text-spacing",
       "outcome": "not-tested",
+      "auto": "clear",
       "review": null
     },
     {
@@ -526,6 +547,7 @@
       "focus": "추가 내용의 닫기·포인터 진입·지속 표시 조건 및 예외를 확인한다.",
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#content-on-hover-or-focus",
       "outcome": "not-tested",
+      "auto": "not-covered",
       "review": null
     },
     {
@@ -535,6 +557,7 @@
       "focus": "포인터 경로 자체가 필수인 기능을 제외하고 모든 기능의 키보드 조작을 확인한다.",
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#keyboard",
       "outcome": "not-tested",
+      "auto": "clear",
       "review": null
     },
     {
@@ -544,6 +567,7 @@
       "focus": "키보드로 진입한 영역에서 빠져나올 수 있는지, 비표준 탈출 방법 안내를 확인한다.",
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#no-keyboard-trap",
       "outcome": "not-tested",
+      "auto": "not-covered",
       "review": null
     },
     {
@@ -553,6 +577,7 @@
       "focus": "문자 전용 단축키를 끄거나 재설정하거나 포커스 시에만 활성화할 수 있는지 확인한다.",
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#character-key-shortcuts",
       "outcome": "not-tested",
+      "auto": "not-covered",
       "review": null
     },
     {
@@ -562,6 +587,7 @@
       "focus": "시간제한을 끄기·조정·연장할 수 있는지와 실시간·필수성·20시간 예외를 확인한다.",
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#timing-adjustable",
       "outcome": "not-tested",
+      "auto": "clear",
       "review": null
     },
     {
@@ -571,6 +597,7 @@
       "focus": "자동 움직임·깜빡임·스크롤·자동 갱신의 제어 조건과 필수성 예외를 확인한다.",
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#pause-stop-hide",
       "outcome": "not-tested",
+      "auto": "clear",
       "review": null
     },
     {
@@ -580,6 +607,7 @@
       "focus": "1초에 세 번을 넘는 섬광이면 일반·적색 섬광 임계값을 넘는지 측정한다.",
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#three-flashes-or-below-threshold",
       "outcome": "not-tested",
+      "auto": "not-covered",
       "review": null
     },
     {
@@ -589,6 +617,7 @@
       "focus": "반복 블록을 우회할 수 있는 수단을 확인한다.",
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#bypass-blocks",
       "outcome": "not-tested",
+      "auto": "clear",
       "review": null
     },
     {
@@ -598,6 +627,7 @@
       "focus": "웹페이지 제목이 주제·목적을 설명하는지 확인한다.",
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#page-titled",
       "outcome": "not-tested",
+      "auto": "clear",
       "review": null
     },
     {
@@ -607,6 +637,7 @@
       "focus": "순서가 의미·조작에 영향을 줄 때 초점 이동이 이를 보존하는지 확인한다.",
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#focus-order",
       "outcome": "not-tested",
+      "auto": "not-covered",
       "review": null
     },
     {
@@ -616,6 +647,7 @@
       "focus": "링크 텍스트와 프로그램으로 파악되는 문맥에서 목적을 알 수 있는지 확인한다.",
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#link-purpose-in-context",
       "outcome": "not-tested",
+      "auto": "clear",
       "review": null
     },
     {
@@ -625,6 +657,7 @@
       "focus": "과정·결과 페이지 예외 외에 페이지를 찾는 수단이 둘 이상인지 확인한다.",
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#multiple-ways",
       "outcome": "not-tested",
+      "auto": "not-covered",
       "review": null
     },
     {
@@ -634,6 +667,7 @@
       "focus": "제목·레이블이 주제나 목적을 설명하는지 확인한다.",
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#headings-and-labels",
       "outcome": "not-tested",
+      "auto": "not-covered",
       "review": null
     },
     {
@@ -643,6 +677,7 @@
       "focus": "키보드 조작 시 현재 초점을 볼 수 있는지 확인한다.",
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#focus-visible",
       "outcome": "not-tested",
+      "auto": "not-covered",
       "review": null
     },
     {
@@ -652,6 +687,7 @@
       "focus": "초점을 받은 구성요소가 작성자 콘텐츠에 의해 완전히 가려지는지와 예외를 확인한다.",
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#focus-not-obscured-minimum",
       "outcome": "not-tested",
+      "auto": "not-covered",
       "review": null
     },
     {
@@ -661,6 +697,7 @@
       "focus": "다중 포인터·경로기반 제스처의 단일 포인터 대안과 필수성 예외를 확인한다.",
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#pointer-gestures",
       "outcome": "not-tested",
+      "auto": "not-covered",
       "review": null
     },
     {
@@ -670,6 +707,7 @@
       "focus": "누름 즉시 실행 회피·중단·되돌리기·뗌 이벤트의 조건과 예외를 확인한다.",
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#pointer-cancellation",
       "outcome": "not-tested",
+      "auto": "not-covered",
       "review": null
     },
     {
@@ -679,6 +717,7 @@
       "focus": "눈에 보이는 텍스트 레이블이 접근 가능한 이름에 포함되는지 확인한다.",
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#label-in-name",
       "outcome": "not-tested",
+      "auto": "not-covered",
       "review": null
     },
     {
@@ -688,6 +727,7 @@
       "focus": "기기·사용자 움직임 기능의 UI 대안과 비활성화 및 예외를 확인한다.",
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#motion-actuation",
       "outcome": "not-tested",
+      "auto": "not-covered",
       "review": null
     },
     {
@@ -697,6 +737,7 @@
       "focus": "드래그 없이 단일 포인터로 같은 기능을 수행할 수 있는지와 예외를 확인한다.",
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#dragging-movements",
       "outcome": "not-tested",
+      "auto": "not-covered",
       "review": null
     },
     {
@@ -706,6 +747,7 @@
       "focus": "24×24 CSS px 또는 간격 대안 및 동등 제어·인라인·에이전트·필수성 예외를 확인한다.",
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#target-size-minimum",
       "outcome": "not-tested",
+      "auto": "clear",
       "review": null
     },
     {
@@ -715,6 +757,7 @@
       "focus": "기본 자연어를 프로그램으로 파악할 수 있는지 확인한다.",
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#language-of-page",
       "outcome": "fail",
+      "auto": "issue",
       "review": null
     },
     {
@@ -724,6 +767,7 @@
       "focus": "다른 언어 구간의 언어 식별과 고유명사·전문용어 등의 예외를 확인한다.",
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#language-of-parts",
       "outcome": "not-tested",
+      "auto": "clear",
       "review": null
     },
     {
@@ -733,6 +777,7 @@
       "focus": "초점을 받는 것만으로 문맥이 바뀌는지 확인한다.",
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#on-focus",
       "outcome": "not-tested",
+      "auto": "not-covered",
       "review": null
     },
     {
@@ -742,6 +787,7 @@
       "focus": "설정 변경으로 문맥이 바뀌면 사전 안내가 있는지 확인한다.",
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#on-input",
       "outcome": "not-tested",
+      "auto": "not-covered",
       "review": null
     },
     {
@@ -751,6 +797,7 @@
       "focus": "반복 탐색 수단의 상대적 순서가 일관적인지 확인한다.",
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#consistent-navigation",
       "outcome": "not-tested",
+      "auto": "not-covered",
       "review": null
     },
     {
@@ -760,6 +807,7 @@
       "focus": "같은 기능의 구성요소를 일관되게 식별하는지 확인한다.",
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#consistent-identification",
       "outcome": "not-tested",
+      "auto": "not-covered",
       "review": null
     },
     {
@@ -769,6 +817,7 @@
       "focus": "여러 페이지에 반복 제공되는 해당 도움말 수단의 상대적 순서를 확인한다.",
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#consistent-help",
       "outcome": "not-tested",
+      "auto": "not-covered",
       "review": null
     },
     {
@@ -778,6 +827,7 @@
       "focus": "자동 탐지된 입력 오류의 항목과 내용을 텍스트로 알리는지 확인한다.",
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#error-identification",
       "outcome": "not-tested",
+      "auto": "not-covered",
       "review": null
     },
     {
@@ -787,6 +837,7 @@
       "focus": "사용자 입력에 필요한 레이블과 지시를 제공하는지 확인한다.",
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#labels-or-instructions",
       "outcome": "not-tested",
+      "auto": "clear",
       "review": null
     },
     {
@@ -796,6 +847,7 @@
       "focus": "알려진 수정 방법을 보안·목적 예외 외에는 제시하는지 확인한다.",
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#error-suggestion",
       "outcome": "not-tested",
+      "auto": "not-covered",
       "review": null
     },
     {
@@ -805,6 +857,7 @@
       "focus": "대상 제출에서 되돌리기·검증·확인 중 요구되는 보호수단을 확인한다.",
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#error-prevention-legal-financial-data",
       "outcome": "not-tested",
+      "auto": "not-covered",
       "review": null
     },
     {
@@ -814,6 +867,7 @@
       "focus": "같은 과정에서 이미 입력·제공한 정보를 자동 채움 또는 선택할 수 있는지와 예외를 확인한다.",
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#redundant-entry",
       "outcome": "not-tested",
+      "auto": "not-covered",
       "review": null
     },
     {
@@ -823,6 +877,7 @@
       "focus": "인지 기능 테스트를 요구하는 인증의 대안·지원·객체 인식·개인 콘텐츠 예외를 확인한다.",
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#accessible-authentication-minimum",
       "outcome": "not-tested",
+      "auto": "not-covered",
       "review": null
     },
     {
@@ -832,6 +887,7 @@
       "focus": "UI의 이름·역할·값·상태를 프로그램과 보조기술이 파악·설정하고 변경 안내를 받는지 확인한다.",
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#name-role-value",
       "outcome": "fail",
+      "auto": "issue",
       "review": null
     },
     {
@@ -841,6 +897,7 @@
       "focus": "포커스 이동 없이 상태 메시지가 역할·속성을 통해 보조기술로 전달되는지 확인한다.",
       "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#status-messages",
       "outcome": "not-tested",
+      "auto": "not-covered",
       "review": null
     }
   ],
